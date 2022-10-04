@@ -1188,25 +1188,25 @@ final public class VerificationResult {
   @objc deinit
 }
 public protocol VerificationResultDelegate : AnyObject {
-  func success(event: PayWingsOnboardingKYC.SuccessEvent)
-  func error(event: PayWingsOnboardingKYC.ErrorEvent)
+  func success(result: PayWingsOnboardingKYC.SuccessEvent)
+  func error(result: PayWingsOnboardingKYC.ErrorEvent)
 }
 @_hasMissingDesignatedInitializers final public class SuccessEvent {
-  final public func getAppReferenceID() -> Swift.String?
-  final public func getReferenceNumber() -> Swift.String?
-  final public func getKycReferenceID() -> Swift.String?
-  final public func getKycID() -> Swift.String?
-  final public func getPersonID() -> Swift.String?
+  final public let AppReferenceID: Swift.String?
+  final public let ReferenceNumber: Swift.String?
+  final public let KycReferenceID: Swift.String?
+  final public let KycID: Swift.String?
+  final public let PersonID: Swift.String?
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class ErrorEvent {
-  final public func getAppReferenceID() -> Swift.String?
-  final public func getReferenceNumber() -> Swift.String?
-  final public func getKycReferenceID() -> Swift.String?
-  final public func getKycID() -> Swift.String?
-  final public func getPersonID() -> Swift.String?
-  final public func getStatusCode() -> Swift.Int
-  final public func getStatusDescription() -> Swift.String
+  final public let AppReferenceID: Swift.String?
+  final public let ReferenceNumber: Swift.String?
+  final public let KycReferenceID: Swift.String?
+  final public let KycID: Swift.String?
+  final public let PersonID: Swift.String?
+  final public let StatusCode: Swift.Int
+  final public let StatusDescription: Swift.String
   @objc deinit
 }
 extension Foundation.URLRequest {
