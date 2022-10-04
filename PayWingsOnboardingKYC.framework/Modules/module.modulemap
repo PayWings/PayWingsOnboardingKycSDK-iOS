@@ -6,6 +6,6 @@ framework module PayWingsOnboardingKYC {
 }
 
 module PayWingsOnboardingKYC.Swift {
-    header "PayWingsOnboardingKYC-Swift.h"
-    requires objc
+  header "PayWingsOnboardingKYC-Swift.h"
+  requires objc
 }

@@ -14,15 +14,15 @@
 		</data>
 		<key>AdditionalDocumentCameraViewController.storyboardc/nRr-cd-CsZ-view-uqM-i5-BT2.nib</key>
 		<data>
-		Xp+1rvWthdXX+ZWmaEfaDLfFLQc=
+		qn/Go6AJgLeGrQejkLag7Akufvg=
 		</data>
 		<key>AdditionalDocumentCell.nib/objects-12.3+.nib</key>
 		<data>
-		b/g3zNX2CbwssQt8kHxk9zXgpSQ=
+		Rjz5wJQrjPHP7PfAztRsY6Xjnvk=
 		</data>
 		<key>AdditionalDocumentCell.nib/runtime.nib</key>
 		<data>
-		x941wyNqi4yXQON8kiHkw2upBvo=
+		EySadmfDH2KFdy16aLyr3/uPK+g=
 		</data>
 		<key>AdditionalDocumentWithSubtypePreview.storyboardc/AdditionalDocumentWithSubtypePreview.nib/objects-14.0+.nib</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>AdditionalDocumentWithSubtypePreview.storyboardc/Es0-44-yfB-view-x6n-7C-tel.nib/objects-14.0+.nib</key>
 		<data>
-		jDw760469SHgEBTAU4xI3HvMYmw=
+		SfmnNFom7DlHzBZuSUirpMWQir0=
 		</data>
 		<key>AdditionalDocumentWithSubtypePreview.storyboardc/Es0-44-yfB-view-x6n-7C-tel.nib/runtime.nib</key>
 		<data>
-		jDw760469SHgEBTAU4xI3HvMYmw=
+		SfmnNFom7DlHzBZuSUirpMWQir0=
 		</data>
 		<key>AdditionalDocumentWithSubtypePreview.storyboardc/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>AdditionalDocumentWithSubtypesViewController.storyboardc/aQB-v2-4L4-view-QcF-Nj-bfY.nib</key>
 		<data>
-		TvVQiMzG1en/g7anhzsbarg/e3E=
+		UZatEq8QfoAnEbXQq6d8HfIFrzo=
 		</data>
 		<key>AdditionalDocumentsViewController.storyboardc/AdditionalDocumentsViewController.nib</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>AdditionalDocumentsViewController.storyboardc/koZ-N3-glA-view-Qny-Z9-OQp.nib</key>
 		<data>
-		mIg7hmq7PpjxsereI4e5hFSJLUA=
+		T0weyTgz6x3JiZJ3U8Y9V+qXQgo=
 		</data>
 		<key>ChooseDocumentViewController.storyboardc/ABb-6a-J1V-view-4nD-B4-o0a.nib</key>
 		<data>
-		lOyrXYl2dPCo19nzwK7efLm/Xk0=
+		lDOqU3l64tizxX4XDsMf4fOZd7w=
 		</data>
 		<key>ChooseDocumentViewController.storyboardc/ChooseDocumentViewController.nib</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>ConfirmCancelKycViewController.storyboardc/FaI-5N-3cq-view-Zdw-Pp-b7S.nib</key>
 		<data>
-		QC1OSVoKNZurTHdS4U8V/B/RrFU=
+		US4L585XPQBmHRjGJq0x//hmpgQ=
 		</data>
 		<key>ConfirmCancelKycViewController.storyboardc/Info.plist</key>
 		<data>
@@ -1110,7 +1110,7 @@
 		</data>
 		<key>CountryPickerView.nib</key>
 		<data>
-		AAH/qMZEVfgdg78/R4wozgZbcBc=
+		cyr5tq2Nx/w2AhvcqgD4xufjhFk=
 		</data>
 		<key>EmailViewController.storyboardc/EmailViewController.nib</key>
 		<data>
@@ -1122,11 +1122,11 @@
 		</data>
 		<key>EmailViewController.storyboardc/ZYW-yA-s4B-view-MDg-rA-3nQ.nib</key>
 		<data>
-		xCP8mh09eSHZuWU3UTFv6XA8A2U=
+		WQgarCUa5hrynxk36/DakMzGJtI=
 		</data>
 		<key>Headers/PayWingsOnboardingKYC-Swift.h</key>
 		<data>
-		a4IdoQPAAXHWqpvdWOpMGYlH1Hk=
+		ZZTQaQwErES2DSHrClSglSb0keY=
 		</data>
 		<key>Headers/PayWingsOnboardingKYC.h</key>
 		<data>
@@ -1146,7 +1146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BFioXMvTD2ovayV/0fEna95QUG0=
+		NG33qtfRfR+KCIAnrdJaJJ6IZXk=
 		</data>
 		<key>LoadingViewController.storyboardc/FVd-1n-EZ7-view-fLX-aB-vZL.nib</key>
 		<data>
@@ -1162,43 +1162,35 @@
 		</data>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		l+EFui9R1ct+mdcgxfAhg+x1dUo=
+		jizV/+iF6aDuymlg0HiDud/nvDA=
 		</data>
-		<key>Modules/PayWingsOnboardingKYC.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		l+EFui9R1ct+mdcgxfAhg+x1dUo=
+		OB8tAcmnktI/9K4kg+zBQn044BU=
+		</data>
+		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		SsXHDim1Kycf2ZOXrVOW/f4IcX4=
 		</data>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		t9EdCN4iJXVR5V5rUCfyJblP+Qc=
+		NoztccjQQTKXbsb3AiJ5VpEcOhQ=
 		</data>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		j6kH+mqrV1n7w6136wrLaNay5lE=
+		SsXHDim1Kycf2ZOXrVOW/f4IcX4=
 		</data>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ip2z4OYF2ZjugcvCOF+OnFNWke4=
-		</data>
-		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		t9EdCN4iJXVR5V5rUCfyJblP+Qc=
-		</data>
-		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		j6kH+mqrV1n7w6136wrLaNay5lE=
-		</data>
-		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		ip2z4OYF2ZjugcvCOF+OnFNWke4=
+		WbEgghkKQfayCcLz/NL0gPciDYw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		0lRcb0UyLmsVdkUdYGMyUIqRs7M=
+		uhAaaE0OAAmNzIuSralC1fzQcTQ=
 		</data>
 		<key>PayWingsOnboardingKYC.podspec</key>
 		<data>
-		03jvc01EeK/ghGZSsRLf1/RA/pE=
+		uvg6vOV4g70AE7+/iQDNWCXwbCo=
 		</data>
 		<key>PersonalInfoViewController.storyboardc/Info.plist</key>
 		<data>
@@ -1210,7 +1202,7 @@
 		</data>
 		<key>PersonalInfoViewController.storyboardc/zzM-p8-FoV-view-Mhx-QP-rFK.nib</key>
 		<data>
-		5GJ5d6+2cC736e0bUadZAu7uA9k=
+		1cnFlkerFuuh59UYPvMNKlUwlQ4=
 		</data>
 		<key>PhoneConfirmCodeViewController.storyboardc/Info.plist</key>
 		<data>
@@ -1222,7 +1214,7 @@
 		</data>
 		<key>PhoneConfirmCodeViewController.storyboardc/h6K-Ry-UYZ-view-ET0-tJ-lCY.nib</key>
 		<data>
-		MX7c/zkvxStubxKxAJkWya5Q4/M=
+		PiuYGki8sWOxSMNoPO8JUtrjofk=
 		</data>
 		<key>PhoneNumberMetadata.json</key>
 		<data>
@@ -1234,7 +1226,7 @@
 		</data>
 		<key>PhoneVerificationViewController.storyboardc/9ob-Qj-UgZ-view-pnk-xE-PmB.nib</key>
 		<data>
-		xm8hlP1zhfFvtKJpBb7yKX5WbRk=
+		pwvQKYArwptQ0nc7R977+P3tFf4=
 		</data>
 		<key>PhoneVerificationViewController.storyboardc/Info.plist</key>
 		<data>
@@ -1250,7 +1242,7 @@
 		</data>
 		<key>ReferenceNumberViewController.storyboardc/0tV-kM-cH3-view-DAE-BO-lqb.nib</key>
 		<data>
-		Gv82kC4yr3YGHnODQTc0RLoBhgs=
+		Ri5n4dfIqQPLsN1m1LeQ2Ug/Sqk=
 		</data>
 		<key>ReferenceNumberViewController.storyboardc/Info.plist</key>
 		<data>
@@ -1270,7 +1262,7 @@
 		</data>
 		<key>ResidentialAddressViewController.storyboardc/nwk-ZG-jFq-view-TKD-5o-3HI.nib</key>
 		<data>
-		Jsvo9FrAb5+CJiudis/ZcJU6ySY=
+		+TeLMExTfQC36MjiiPKWby5p4TM=
 		</data>
 		<key>VideoFailedRepeatViewController.storyboardc/Info.plist</key>
 		<data>
@@ -1282,7 +1274,7 @@
 		</data>
 		<key>VideoFailedRepeatViewController.storyboardc/bV8-Ag-ehX-view-r4z-YY-xCP.nib</key>
 		<data>
-		+18SAjjmzFvuf9eYOqbOyNOGZaQ=
+		yPLrjz0njMq1ERoh8ttZ5Z/fDCs=
 		</data>
 		<key>VideoViewController.storyboardc/Info.plist</key>
 		<data>
@@ -1353,21 +1345,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dQrFlffxKP9pAUTLpZHe9Gn6DdkRTKmSppE2Gnai2nY=
+			Gty+EYzTaWGr8dtEKCTWhxHgPojiQum2bFuth9kZpBU=
 			</data>
 		</dict>
 		<key>AdditionalDocumentCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pEfn84IgzF5h2P+G2jCuy6RX0KXOhl0Rd9xrzAPLpQM=
+			iYjX3+LJPznjzmdV1wZvGsARHVta8tLWJ+tvkZgyjuo=
 			</data>
 		</dict>
 		<key>AdditionalDocumentCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nWlzZZ4B32rX6jHEYCWFwWeAh8PA5vr51qxM9ozttlU=
+			ely6RRId3n35iXZAXEHeyM0rnk7oTgTxqtNZ7kt0p98=
 			</data>
 		</dict>
 		<key>AdditionalDocumentWithSubtypePreview.storyboardc/AdditionalDocumentWithSubtypePreview.nib/objects-14.0+.nib</key>
@@ -1388,14 +1380,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OKYUD+1fpmT8TDKHg34jnTeR2f3AjWGAa8LtJ5H+xyI=
+			Wv8wWJpzBC1ierINKmNqNcZEIryworNzxiC+uExmj34=
 			</data>
 		</dict>
 		<key>AdditionalDocumentWithSubtypePreview.storyboardc/Es0-44-yfB-view-x6n-7C-tel.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OKYUD+1fpmT8TDKHg34jnTeR2f3AjWGAa8LtJ5H+xyI=
+			Wv8wWJpzBC1ierINKmNqNcZEIryworNzxiC+uExmj34=
 			</data>
 		</dict>
 		<key>AdditionalDocumentWithSubtypePreview.storyboardc/Info.plist</key>
@@ -1423,7 +1415,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B5ayqTvMCQWZ3jzFLm6Qd1u4cxmOpt6FWnDbD3HKxOI=
+			Pp2lSpmElKfdF7R8DE/ZlWke7hXXY6fimrlvet5MbOo=
 			</data>
 		</dict>
 		<key>AdditionalDocumentsViewController.storyboardc/AdditionalDocumentsViewController.nib</key>
@@ -1444,14 +1436,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			npc7N7F9Kxz929yFRPVJN1GsFTdNN9BtarY6l4OZ52k=
+			Z0PaSfFvLxJMPQGnVZHa/mVdmu+5pTeP4KYA15GVvCk=
 			</data>
 		</dict>
 		<key>ChooseDocumentViewController.storyboardc/ABb-6a-J1V-view-4nD-B4-o0a.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+2z72JWi9zGV81Q8/AY4OZ662A9W7xkPJ822KL9UOSk=
+			2SLOSrb3dR4U7ybFuGT/SV60wFqfcnuPOnuQqPrFEkg=
 			</data>
 		</dict>
 		<key>ChooseDocumentViewController.storyboardc/ChooseDocumentViewController.nib</key>
@@ -1479,7 +1471,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jio7FLglX4u53ESSyInfTUHq0mU49SND0wjwq798k4Q=
+			OXtXZA+Nq1w/5SofGGMcft4reOvASSNhqOuJLg/CWgY=
 			</data>
 		</dict>
 		<key>ConfirmCancelKycViewController.storyboardc/Info.plist</key>
@@ -3271,7 +3263,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RNNFOrlGA6z4AAd56ptVW+3h5eYSWn1+mS10DAl664E=
+			oWphEWLOPuu4g0wzDzDioV1W5oHdQOyHeXrwT04HEJ8=
 			</data>
 		</dict>
 		<key>EmailViewController.storyboardc/EmailViewController.nib</key>
@@ -3292,14 +3284,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QXUdGp1pgMATljUJlin8QRng4CEr6B7er+7b+zjWiuM=
+			uIlLBgpLu7H0Jjc3YT5BkNJM0QsYOtwNC5ZponniMBU=
 			</data>
 		</dict>
 		<key>Headers/PayWingsOnboardingKYC-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6y6u3TUbgAU5j1kwYpRhfNs88shvSexhH/m5gRyaa2w=
+			BN+z4C4bV49DAPVP8RryZSX2KTjFa9hNil5TNdUKTME=
 			</data>
 		</dict>
 		<key>Headers/PayWingsOnboardingKYC.h</key>
@@ -3355,70 +3347,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0mY5P7jRNYqS2MwB/ZkEnnn7pnjAaHnO0dT5EUyCYa4=
+			nwzGOXc2c9YtO+ddY2K6fbKnaMoi6VH4UaMRzg7lAwk=
 			</data>
 		</dict>
-		<key>Modules/PayWingsOnboardingKYC.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0mY5P7jRNYqS2MwB/ZkEnnn7pnjAaHnO0dT5EUyCYa4=
+			Rgrk/veFeseskwuNBuT5tdIqBe/9N1HyJHEmSvUDXf8=
+			</data>
+		</dict>
+		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9aKpq0Cj2nGjBNBxR09CnEgOguWkUqbBH6mck4oOCuU=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cx1d2+67UW15edEB4OUCL+2xbcbuk1WuDxbYq7VVX4o=
+			xl7ESfK+raREg2uIrAmzoMj0jL7RnrXW9kf76+s1z6s=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2c+gsH0Jm8JUHgdwwuO38WJ2D2HsTepHhx0BuhiZ9TY=
+			9aKpq0Cj2nGjBNBxR09CnEgOguWkUqbBH6mck4oOCuU=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FYImuY5wPHLPRkN+3knly73OrNcos66KHxEtthSmp4g=
-			</data>
-		</dict>
-		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cx1d2+67UW15edEB4OUCL+2xbcbuk1WuDxbYq7VVX4o=
-			</data>
-		</dict>
-		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2c+gsH0Jm8JUHgdwwuO38WJ2D2HsTepHhx0BuhiZ9TY=
-			</data>
-		</dict>
-		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FYImuY5wPHLPRkN+3knly73OrNcos66KHxEtthSmp4g=
+			r0kqrIeYHgDYs90PYsCq1PA2YvHohhk6s2IUMH28sDE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i639uFkNyWoYgDqkodCItzYT6qxJfKX56EByant6cBg=
+			JymMy/Xvmvvl3o5t/oppn9vzPyTPcEZAkeCjnzuDSr0=
 			</data>
 		</dict>
 		<key>PayWingsOnboardingKYC.podspec</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7hjXM2+7kYxXr5kLHWq+QHcNBwUi6RI7JZCtAe/EFtA=
+			YordLIB7Y+m8S0lFDzTE6ilRgfRxgyUivjtW1gT4er8=
 			</data>
 		</dict>
 		<key>PersonalInfoViewController.storyboardc/Info.plist</key>
@@ -3439,7 +3417,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HJgKoIJ2LDth3CnqHsJxOwZgUdaSWFnIqedV3Okyc28=
+			qv+SN1P4a8KUbhC2aDhz1xhaTIKHWRigu8lPfvFPpbs=
 			</data>
 		</dict>
 		<key>PhoneConfirmCodeViewController.storyboardc/Info.plist</key>
@@ -3460,7 +3438,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PYT4Vx9SNVqscA1aQAPzfe8Y1Si99qrzXUyYXTmUhuo=
+			Afqj/Vx/Xkeh3AA3ESgw8AOCCI55J5oVNo2xjfsXwRw=
 			</data>
 		</dict>
 		<key>PhoneNumberMetadata.json</key>
@@ -3481,7 +3459,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6p7eiJxo4lgCXK4veLBarq8R7kqtJ2yIEONJ/92eW4Q=
+			BForwZhLvZJ13gC7yf2xPpAbPpCTYOIYmxwB1XVq0fk=
 			</data>
 		</dict>
 		<key>PhoneVerificationViewController.storyboardc/Info.plist</key>
@@ -3509,7 +3487,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TCv1yomqRcP5QGMPqOx8n3J6qkFnCzcbLIjp/6dYFFY=
+			bgjnWvDMih/M22VxBWkaBji+UrDpr1Akcv12un7QsfE=
 			</data>
 		</dict>
 		<key>ReferenceNumberViewController.storyboardc/Info.plist</key>
@@ -3544,7 +3522,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lWVlsBX6SQ6y551Wj48gCNtDprOwAjVk4hfpq3yuM2A=
+			J9ZlwwJbuZpEXMaALrqeFAx5Ww2Qwy9TrWj6kiPnEEw=
 			</data>
 		</dict>
 		<key>VideoFailedRepeatViewController.storyboardc/Info.plist</key>
@@ -3565,7 +3543,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c7rUidHexUray6+/aYwLFqO6ndp72FL6rj8ImJkn20M=
+			DXei5IyN5VXEHDroRuJ+zvPHaqQjAbJVXUUnV9UKllU=
 			</data>
 		</dict>
 		<key>VideoViewController.storyboardc/Info.plist</key>

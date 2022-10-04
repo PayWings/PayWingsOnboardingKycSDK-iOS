@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name PayWingsOnboardingKYC
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
 import CoreTelephony
 import Dispatch
@@ -13,6 +14,7 @@ import SystemConfiguration
 import UIKit
 import VideoID
 import _Concurrency
+import _StringProcessing
 public struct PhoneNumber : Swift.Codable {
   public let numberString: Swift.String
   public let countryCode: Swift.UInt64
@@ -172,7 +174,7 @@ final public class URLEncodedFormEncoder {
   @objc deinit
 }
 extension Foundation.CharacterSet {
-  public static var afURLQueryAllowed: Foundation.CharacterSet
+  public static let afURLQueryAllowed: Foundation.CharacterSet
 }
 public protocol DataResponseSerializerProtocol {
   associatedtype SerializedObject
@@ -293,7 +295,7 @@ public protocol EmptyResponse {
   static func emptyValue() -> Self
 }
 public struct Empty : Swift.Codable {
-  public static var value: PayWingsOnboardingKYC.Empty
+  public static let value: PayWingsOnboardingKYC.Empty
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -356,9 +358,7 @@ extension PayWingsOnboardingKYC.DataStreamRequest {
 }
 public typealias CPVCountry = PayWingsOnboardingKYC.Country
 public enum SearchBarPosition {
-  case tableViewHeader
-  case navigationBar
-  case hidden
+  case tableViewHeader, navigationBar, hidden
   public static func == (a: PayWingsOnboardingKYC.SearchBarPosition, b: PayWingsOnboardingKYC.SearchBarPosition) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -379,32 +379,32 @@ public func != (lhs: PayWingsOnboardingKYC.Country, rhs: PayWingsOnboardingKYC.C
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CountryPickerView : PayWingsOnboardingKYC.NibView {
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var flagImageView: UIKit.UIImageView! {
     @objc get
-    @objc set(value)
+    @objc set
   }
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var countryDetailsLabel: UIKit.UILabel!
   @_Concurrency.MainActor(unsafe) public var showCountryCodeInView: Swift.Bool {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) public var showPhoneCodeInView: Swift.Bool {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) public var showCountryNameInView: Swift.Bool {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) public var font: UIKit.UIFont {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) public var textColor: UIKit.UIColor {
     get
-    set(value)
+    set
   }
-  @_Concurrency.MainActor(unsafe) public var flagSpacingInView: CoreGraphics.CGFloat {
+  @_Concurrency.MainActor(unsafe) public var flagSpacingInView: CoreFoundation.CGFloat {
     get
-    set(newValue)
+    set
   }
   @_Concurrency.MainActor(unsafe) weak public var dataSource: PayWingsOnboardingKYC.CountryPickerViewDataSource?
   @_Concurrency.MainActor(unsafe) weak public var delegate: PayWingsOnboardingKYC.CountryPickerViewDelegate?
@@ -412,7 +412,7 @@ public func != (lhs: PayWingsOnboardingKYC.Country, rhs: PayWingsOnboardingKYC.C
   @_Concurrency.MainActor(unsafe) public var selectedCountry: PayWingsOnboardingKYC.Country {
     get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) public func showCountriesList(from viewController: UIKit.UIViewController)
   @_Concurrency.MainActor(unsafe) final public let countries: [PayWingsOnboardingKYC.Country]
@@ -427,15 +427,15 @@ extension PayWingsOnboardingKYC.CountryPickerView {
   @_Concurrency.MainActor(unsafe) public func getCountryByCode(_ code: Swift.String) -> PayWingsOnboardingKYC.Country?
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class NibView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
 open class MultipartFormData {
-  public static var encodingMemoryThreshold: Swift.UInt64
+  public static let encodingMemoryThreshold: Swift.UInt64
   open var contentType: Swift.String {
     get
-    set(value)
+    set
   }
   public var contentLength: Swift.UInt64 {
     get
@@ -465,7 +465,7 @@ public struct HTTPHeaders {
   public func value(for name: Swift.String) -> Swift.String?
   public subscript(name: Swift.String) -> Swift.String? {
     get
-    set(newValue)
+    set
   }
   public var dictionary: [Swift.String : Swift.String] {
     get
@@ -533,17 +533,17 @@ extension PayWingsOnboardingKYC.HTTPHeader {
   public static func userAgent(_ value: Swift.String) -> PayWingsOnboardingKYC.HTTPHeader
 }
 extension PayWingsOnboardingKYC.HTTPHeaders {
-  public static var `default`: PayWingsOnboardingKYC.HTTPHeaders
+  public static let `default`: PayWingsOnboardingKYC.HTTPHeaders
 }
 extension PayWingsOnboardingKYC.HTTPHeader {
-  public static var defaultAcceptEncoding: PayWingsOnboardingKYC.HTTPHeader
-  public static var defaultAcceptLanguage: PayWingsOnboardingKYC.HTTPHeader
-  public static var defaultUserAgent: PayWingsOnboardingKYC.HTTPHeader
+  public static let defaultAcceptEncoding: PayWingsOnboardingKYC.HTTPHeader
+  public static let defaultAcceptLanguage: PayWingsOnboardingKYC.HTTPHeader
+  public static let defaultUserAgent: PayWingsOnboardingKYC.HTTPHeader
 }
 extension Foundation.URLRequest {
   public var headers: PayWingsOnboardingKYC.HTTPHeaders {
     get
-    set(newValue)
+    set
   }
 }
 extension Foundation.HTTPURLResponse {
@@ -554,11 +554,11 @@ extension Foundation.HTTPURLResponse {
 extension Foundation.URLSessionConfiguration {
   public var headers: PayWingsOnboardingKYC.HTTPHeaders {
     get
-    set(newValue)
+    set
   }
 }
 @_hasMissingDesignatedInitializers final public class PayWingsOnboardingKyc {
-  public static func startKyc(vc: UIKit.UIViewController, config: PayWingsOnboardingKYC.KycConfig, result: PayWingsOnboardingKYC.VerificationResultProtocol)
+  public static func startKyc(vc: UIKit.UIViewController, config: PayWingsOnboardingKYC.KycConfig, result: PayWingsOnboardingKYC.VerificationResult)
   @objc deinit
 }
 final public class KycConfig {
@@ -609,17 +609,17 @@ extension PayWingsOnboardingKYC.CountryPickerViewController : UIKit.UISearchCont
   @_Concurrency.MainActor(unsafe) @objc dynamic public func willDismissSearchController(_ searchController: UIKit.UISearchController)
 }
 extension UIKit.UIColor {
-  public convenience init?(hex: Swift.String)
+  convenience public init?(hex: Swift.String)
 }
 extension UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var shouldAutorotate: Swift.Bool {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
 }
 public protocol CachedResponseHandler {
@@ -631,8 +631,8 @@ public struct ResponseCacher {
     case doNotCache
     case modify((Foundation.URLSessionDataTask, Foundation.CachedURLResponse) -> Foundation.CachedURLResponse?)
   }
-  public static var cache: PayWingsOnboardingKYC.ResponseCacher
-  public static var doNotCache: PayWingsOnboardingKYC.ResponseCacher
+  public static let cache: PayWingsOnboardingKYC.ResponseCacher
+  public static let doNotCache: PayWingsOnboardingKYC.ResponseCacher
   public let behavior: PayWingsOnboardingKYC.ResponseCacher.Behavior
   public init(behavior: PayWingsOnboardingKYC.ResponseCacher.Behavior)
 }
@@ -684,12 +684,12 @@ public struct MetadataPhoneNumberFormat : Swift.Decodable {
   public let domesticCarrierCodeFormattingRule: Swift.String?
 }
 open class RetryPolicy : PayWingsOnboardingKYC.RequestInterceptor {
-  public static var defaultRetryLimit: Swift.UInt
-  public static var defaultExponentialBackoffBase: Swift.UInt
-  public static var defaultExponentialBackoffScale: Swift.Double
-  public static var defaultRetryableHTTPMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod>
-  public static var defaultRetryableHTTPStatusCodes: Swift.Set<Swift.Int>
-  public static var defaultRetryableURLErrorCodes: Swift.Set<Foundation.URLError.Code>
+  public static let defaultRetryLimit: Swift.UInt
+  public static let defaultExponentialBackoffBase: Swift.UInt
+  public static let defaultExponentialBackoffScale: Swift.Double
+  public static let defaultRetryableHTTPMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod>
+  public static let defaultRetryableHTTPStatusCodes: Swift.Set<Swift.Int>
+  public static let defaultRetryableURLErrorCodes: Swift.Set<Foundation.URLError.Code>
   final public let retryLimit: Swift.UInt
   final public let exponentialBackoffBase: Swift.UInt
   final public let exponentialBackoffScale: Swift.Double
@@ -710,11 +710,11 @@ open class ConnectionLostRetryPolicy : PayWingsOnboardingKYC.RetryPolicy {
   @objc dynamic public var generatesPhoneNumber: Swift.Bool
   @objc dynamic public var defaultRegion: Swift.String {
     @objc get
-    @objc set(value)
+    @objc set
   }
   @objc dynamic public var withPrefix: Swift.Bool {
     @objc get
-    @objc set(value)
+    @objc set
   }
   @objc dynamic public var currentRegion: Swift.String {
     @objc get
@@ -744,7 +744,7 @@ extension PayWingsOnboardingKYC.PhoneNumberFormatter {
     }
   }
   public typealias Listener = (PayWingsOnboardingKYC.NetworkReachabilityManager.NetworkReachabilityStatus) -> Swift.Void
-  public static var `default`: PayWingsOnboardingKYC.NetworkReachabilityManager?
+  public static let `default`: PayWingsOnboardingKYC.NetworkReachabilityManager?
   open var isReachable: Swift.Bool {
     get
   }
@@ -761,8 +761,8 @@ extension PayWingsOnboardingKYC.PhoneNumberFormatter {
   open var status: PayWingsOnboardingKYC.NetworkReachabilityManager.NetworkReachabilityStatus {
     get
   }
-  public convenience init?(host: Swift.String)
-  public convenience init?()
+  convenience public init?(host: Swift.String)
+  convenience public init?()
   @objc deinit
   @discardableResult
   open func startListening(onQueue queue: Dispatch.DispatchQueue = .main, onUpdatePerforming listener: @escaping PayWingsOnboardingKYC.NetworkReachabilityManager.Listener) -> Swift.Bool
@@ -852,11 +852,11 @@ public protocol AlamofireExtended {
 extension PayWingsOnboardingKYC.AlamofireExtended {
   public static var af: PayWingsOnboardingKYC.AlamofireExtension<Self>.Type {
     get
-    set(newValue)
+    set
   }
   public var af: PayWingsOnboardingKYC.AlamofireExtension<Self> {
     get
-    set(newValue)
+    set
   }
 }
 open class ServerTrustManager {
@@ -876,12 +876,12 @@ final public class DefaultTrustEvaluator : PayWingsOnboardingKYC.ServerTrustEval
 }
 final public class RevocationTrustEvaluator : PayWingsOnboardingKYC.ServerTrustEvaluating {
   public struct Options : Swift.OptionSet {
-    public static var crl: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
-    public static var networkAccessDisabled: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
-    public static var ocsp: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
-    public static var preferCRL: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
-    public static var requirePositiveResponse: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
-    public static var any: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
+    public static let crl: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
+    public static let networkAccessDisabled: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
+    public static let ocsp: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
+    public static let preferCRL: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
+    public static let requirePositiveResponse: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
+    public static let any: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
     public let rawValue: CoreFoundation.CFOptionFlags
     public init(rawValue: CoreFoundation.CFOptionFlags)
     public typealias ArrayLiteralElement = PayWingsOnboardingKYC.RevocationTrustEvaluator.Options
@@ -965,7 +965,7 @@ extension Security.SecPolicy : PayWingsOnboardingKYC.AlamofireExtended {
   public typealias ExtendedType = Security.SecPolicy
 }
 extension PayWingsOnboardingKYC.AlamofireExtension where ExtendedType == Security.SecPolicy {
-  public static var `default`: Security.SecPolicy
+  public static let `default`: Security.SecPolicy
   public static func hostname(_ hostname: Swift.String) -> Security.SecPolicy
   public static func revocation(options: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options) throws -> Security.SecPolicy
 }
@@ -991,7 +991,7 @@ extension PayWingsOnboardingKYC.AlamofireExtension where ExtendedType == Securit
 extension Swift.Int32 : PayWingsOnboardingKYC.AlamofireExtended {
   public typealias ExtendedType = Swift.Int32
 }
-extension PayWingsOnboardingKYC.AlamofireExtension where ExtendedType == Darwin.OSStatus {
+extension PayWingsOnboardingKYC.AlamofireExtension where ExtendedType == Swift.Int32 {
   public var isSuccess: Swift.Bool {
     get
   }
@@ -1064,15 +1064,15 @@ public enum PossibleLengthType : Swift.String, Swift.Codable {
   }
 }
 public struct HTTPMethod : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable {
-  public static var connect: PayWingsOnboardingKYC.HTTPMethod
-  public static var delete: PayWingsOnboardingKYC.HTTPMethod
-  public static var get: PayWingsOnboardingKYC.HTTPMethod
-  public static var head: PayWingsOnboardingKYC.HTTPMethod
-  public static var options: PayWingsOnboardingKYC.HTTPMethod
-  public static var patch: PayWingsOnboardingKYC.HTTPMethod
-  public static var post: PayWingsOnboardingKYC.HTTPMethod
-  public static var put: PayWingsOnboardingKYC.HTTPMethod
-  public static var trace: PayWingsOnboardingKYC.HTTPMethod
+  public static let connect: PayWingsOnboardingKYC.HTTPMethod
+  public static let delete: PayWingsOnboardingKYC.HTTPMethod
+  public static let get: PayWingsOnboardingKYC.HTTPMethod
+  public static let head: PayWingsOnboardingKYC.HTTPMethod
+  public static let options: PayWingsOnboardingKYC.HTTPMethod
+  public static let patch: PayWingsOnboardingKYC.HTTPMethod
+  public static let post: PayWingsOnboardingKYC.HTTPMethod
+  public static let put: PayWingsOnboardingKYC.HTTPMethod
+  public static let trace: PayWingsOnboardingKYC.HTTPMethod
   public let rawValue: Swift.String
   public init(rawValue: Swift.String)
   public typealias RawValue = Swift.String
@@ -1086,8 +1086,8 @@ public struct Redirector {
     case doNotFollow
     case modify((Foundation.URLSessionTask, Foundation.URLRequest, Foundation.HTTPURLResponse) -> Foundation.URLRequest?)
   }
-  public static var follow: PayWingsOnboardingKYC.Redirector
-  public static var doNotFollow: PayWingsOnboardingKYC.Redirector
+  public static let follow: PayWingsOnboardingKYC.Redirector
+  public static let doNotFollow: PayWingsOnboardingKYC.Redirector
   public let behavior: PayWingsOnboardingKYC.Redirector.Behavior
   public init(behavior: PayWingsOnboardingKYC.Redirector.Behavior)
 }
@@ -1182,7 +1182,12 @@ open class URLEncodedFormParameterEncoder : PayWingsOnboardingKYC.ParameterEncod
   @objc deinit
 }
 public typealias AFResult<Success> = Swift.Result<Success, PayWingsOnboardingKYC.AFError>
-public protocol VerificationResultProtocol {
+final public class VerificationResult {
+  weak final public var delegate: PayWingsOnboardingKYC.VerificationResultDelegate?
+  public init()
+  @objc deinit
+}
+public protocol VerificationResultDelegate : AnyObject {
   func success(event: PayWingsOnboardingKYC.SuccessEvent)
   func error(event: PayWingsOnboardingKYC.ErrorEvent)
 }
@@ -1207,7 +1212,7 @@ public protocol VerificationResultProtocol {
 extension Foundation.URLRequest {
   public var method: PayWingsOnboardingKYC.HTTPMethod? {
     get
-    set(newValue)
+    set
   }
   public func validate() throws
 }
@@ -1408,8 +1413,8 @@ extension PayWingsOnboardingKYC.DataStreamRequest.Stream {
 }
 @_hasMissingDesignatedInitializers public class DownloadRequest : PayWingsOnboardingKYC.Request {
   public struct Options : Swift.OptionSet {
-    public static var createIntermediateDirectories: PayWingsOnboardingKYC.DownloadRequest.Options
-    public static var removePreviousFile: PayWingsOnboardingKYC.DownloadRequest.Options
+    public static let createIntermediateDirectories: PayWingsOnboardingKYC.DownloadRequest.Options
+    public static let removePreviousFile: PayWingsOnboardingKYC.DownloadRequest.Options
     public let rawValue: Swift.Int
     public init(rawValue: Swift.Int)
     public typealias ArrayLiteralElement = PayWingsOnboardingKYC.DownloadRequest.Options
@@ -1468,7 +1473,7 @@ public struct DataResponsePublisher<Value> : Combine.Publisher {
   public init<Serializer>(_ request: PayWingsOnboardingKYC.DataRequest, queue: Dispatch.DispatchQueue, serializer: Serializer) where Value == Serializer.SerializedObject, Serializer : PayWingsOnboardingKYC.DataResponseSerializerProtocol
   public func result() -> Combine.AnyPublisher<Swift.Result<Value, PayWingsOnboardingKYC.AFError>, Swift.Never>
   public func value() -> Combine.AnyPublisher<Value, PayWingsOnboardingKYC.AFError>
-  public func receive<S>(subscriber: S) where S : Combine.Subscriber, S.Failure == PayWingsOnboardingKYC.DataResponsePublisher<Value>.Failure, S.Input == PayWingsOnboardingKYC.DataResponsePublisher<Value>.Output
+  public func receive<S>(subscriber: S) where S : Combine.Subscriber, S.Failure == Swift.Never, S.Input == PayWingsOnboardingKYC.DataResponse<Value, PayWingsOnboardingKYC.AFError>
 }
 @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
 extension PayWingsOnboardingKYC.DataResponsePublisher where Value == Foundation.Data? {
@@ -1494,7 +1499,7 @@ public struct DataStreamPublisher<Value> : Combine.Publisher {
   public init<Serializer>(_ request: PayWingsOnboardingKYC.DataStreamRequest, queue: Dispatch.DispatchQueue, serializer: Serializer) where Value == Serializer.SerializedObject, Serializer : PayWingsOnboardingKYC.DataStreamSerializer
   public func result() -> Combine.AnyPublisher<Swift.Result<Value, PayWingsOnboardingKYC.AFError>, Swift.Never>
   public func value() -> Combine.AnyPublisher<Value, PayWingsOnboardingKYC.AFError>
-  public func receive<S>(subscriber: S) where S : Combine.Subscriber, S.Failure == PayWingsOnboardingKYC.DataStreamPublisher<Value>.Failure, S.Input == PayWingsOnboardingKYC.DataStreamPublisher<Value>.Output
+  public func receive<S>(subscriber: S) where S : Combine.Subscriber, S.Failure == Swift.Never, S.Input == PayWingsOnboardingKYC.DataStreamRequest.Stream<Value, PayWingsOnboardingKYC.AFError>
 }
 extension PayWingsOnboardingKYC.DataStreamRequest {
   @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
@@ -1515,7 +1520,7 @@ public struct DownloadResponsePublisher<Value> : Combine.Publisher {
   public init<Serializer>(_ request: PayWingsOnboardingKYC.DownloadRequest, queue: Dispatch.DispatchQueue, serializer: Serializer) where Value == Serializer.SerializedObject, Serializer : PayWingsOnboardingKYC.DownloadResponseSerializerProtocol
   public func result() -> Combine.AnyPublisher<Swift.Result<Value, PayWingsOnboardingKYC.AFError>, Swift.Never>
   public func value() -> Combine.AnyPublisher<Value, PayWingsOnboardingKYC.AFError>
-  public func receive<S>(subscriber: S) where S : Combine.Subscriber, S.Failure == PayWingsOnboardingKYC.DownloadResponsePublisher<Value>.Failure, S.Input == PayWingsOnboardingKYC.DownloadResponsePublisher<Value>.Output
+  public func receive<S>(subscriber: S) where S : Combine.Subscriber, S.Failure == Swift.Never, S.Input == PayWingsOnboardingKYC.DownloadResponse<Value, PayWingsOnboardingKYC.AFError>
 }
 extension PayWingsOnboardingKYC.DownloadRequest {
   @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
@@ -1566,7 +1571,7 @@ public class AuthenticationInterceptor<AuthenticatorType> : PayWingsOnboardingKY
   }
   public var credential: PayWingsOnboardingKYC.AuthenticationInterceptor<AuthenticatorType>.Credential? {
     get
-    set(newValue)
+    set
   }
   public init(authenticator: AuthenticatorType, credential: PayWingsOnboardingKYC.AuthenticationInterceptor<AuthenticatorType>.Credential? = nil, refreshWindow: PayWingsOnboardingKYC.AuthenticationInterceptor<AuthenticatorType>.RefreshWindow? = RefreshWindow())
   public func adapt(_ urlRequest: Foundation.URLRequest, for session: PayWingsOnboardingKYC.Session, completion: @escaping (Swift.Result<Foundation.URLRequest, Swift.Error>) -> Swift.Void)
@@ -1625,7 +1630,7 @@ public struct JSON {
   }
   public var object: Any {
     get
-    set(newValue)
+    set
   }
   @available(*, unavailable, renamed: "null")
   public static var nullJSON: PayWingsOnboardingKYC.JSON {
@@ -1681,11 +1686,11 @@ extension Swift.String : PayWingsOnboardingKYC.JSONSubscriptType {
 extension PayWingsOnboardingKYC.JSON {
   public subscript(path: [PayWingsOnboardingKYC.JSONSubscriptType]) -> PayWingsOnboardingKYC.JSON {
     get
-    set(newValue)
+    set
   }
   public subscript(path: PayWingsOnboardingKYC.JSONSubscriptType...) -> PayWingsOnboardingKYC.JSON {
     get
-    set(newValue)
+    set
   }
 }
 extension PayWingsOnboardingKYC.JSON : Swift.ExpressibleByStringLiteral {
@@ -1744,7 +1749,7 @@ extension PayWingsOnboardingKYC.JSON {
   }
   public var arrayObject: [Any]? {
     get
-    set(newValue)
+    set
   }
 }
 extension PayWingsOnboardingKYC.JSON {
@@ -1756,148 +1761,148 @@ extension PayWingsOnboardingKYC.JSON {
   }
   public var dictionaryObject: [Swift.String : Any]? {
     get
-    set(newValue)
+    set
   }
 }
 extension PayWingsOnboardingKYC.JSON {
   public var bool: Swift.Bool? {
     get
-    set(newValue)
+    set
   }
   public var boolValue: Swift.Bool {
     get
-    set(newValue)
+    set
   }
 }
 extension PayWingsOnboardingKYC.JSON {
   public var string: Swift.String? {
     get
-    set(newValue)
+    set
   }
   public var stringValue: Swift.String {
     get
-    set(newValue)
+    set
   }
 }
 extension PayWingsOnboardingKYC.JSON {
   public var number: Foundation.NSNumber? {
     get
-    set(newValue)
+    set
   }
   public var numberValue: Foundation.NSNumber {
     get
-    set(newValue)
+    set
   }
 }
 extension PayWingsOnboardingKYC.JSON {
   public var null: Foundation.NSNull? {
     get
-    set(newValue)
+    set
   }
   public func exists() -> Swift.Bool
 }
 extension PayWingsOnboardingKYC.JSON {
   public var url: Foundation.URL? {
     get
-    set(newValue)
+    set
   }
 }
 extension PayWingsOnboardingKYC.JSON {
   public var double: Swift.Double? {
     get
-    set(newValue)
+    set
   }
   public var doubleValue: Swift.Double {
     get
-    set(newValue)
+    set
   }
   public var float: Swift.Float? {
     get
-    set(newValue)
+    set
   }
   public var floatValue: Swift.Float {
     get
-    set(newValue)
+    set
   }
   public var int: Swift.Int? {
     get
-    set(newValue)
+    set
   }
   public var intValue: Swift.Int {
     get
-    set(newValue)
+    set
   }
   public var uInt: Swift.UInt? {
     get
-    set(newValue)
+    set
   }
   public var uIntValue: Swift.UInt {
     get
-    set(newValue)
+    set
   }
   public var int8: Swift.Int8? {
     get
-    set(newValue)
+    set
   }
   public var int8Value: Swift.Int8 {
     get
-    set(newValue)
+    set
   }
   public var uInt8: Swift.UInt8? {
     get
-    set(newValue)
+    set
   }
   public var uInt8Value: Swift.UInt8 {
     get
-    set(newValue)
+    set
   }
   public var int16: Swift.Int16? {
     get
-    set(newValue)
+    set
   }
   public var int16Value: Swift.Int16 {
     get
-    set(newValue)
+    set
   }
   public var uInt16: Swift.UInt16? {
     get
-    set(newValue)
+    set
   }
   public var uInt16Value: Swift.UInt16 {
     get
-    set(newValue)
+    set
   }
   public var int32: Swift.Int32? {
     get
-    set(newValue)
+    set
   }
   public var int32Value: Swift.Int32 {
     get
-    set(newValue)
+    set
   }
   public var uInt32: Swift.UInt32? {
     get
-    set(newValue)
+    set
   }
   public var uInt32Value: Swift.UInt32 {
     get
-    set(newValue)
+    set
   }
   public var int64: Swift.Int64? {
     get
-    set(newValue)
+    set
   }
   public var int64Value: Swift.Int64 {
     get
-    set(newValue)
+    set
   }
   public var uInt64: Swift.UInt64? {
     get
-    set(newValue)
+    set
   }
   public var uInt64Value: Swift.UInt64 {
     get
-    set(newValue)
+    set
   }
 }
 extension PayWingsOnboardingKYC.JSON : Swift.Comparable {
@@ -1923,10 +1928,10 @@ extension PayWingsOnboardingKYC.JSON : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers final public class PartialFormatter {
-  public convenience init(phoneNumberKit: PayWingsOnboardingKYC.PhoneNumberKit = PhoneNumberKit(), defaultRegion: Swift.String = PhoneNumberKit.defaultRegionCode(), withPrefix: Swift.Bool = true, maxDigits: Swift.Int? = nil)
+  convenience public init(phoneNumberKit: PayWingsOnboardingKYC.PhoneNumberKit = PhoneNumberKit(), defaultRegion: Swift.String = PhoneNumberKit.defaultRegionCode(), withPrefix: Swift.Bool = true, maxDigits: Swift.Int? = nil)
   final public var defaultRegion: Swift.String {
     get
-    set(value)
+    set
   }
   final public var maxDigits: Swift.Int?
   final public var currentRegion: Swift.String {
@@ -1997,7 +2002,7 @@ extension PayWingsOnboardingKYC.DownloadResponse {
   public func mapError<NewFailure>(_ transform: (Failure) -> NewFailure) -> PayWingsOnboardingKYC.DownloadResponse<Success, NewFailure> where NewFailure : Swift.Error
   public func tryMapError<NewFailure>(_ transform: (Failure) throws -> NewFailure) -> PayWingsOnboardingKYC.DownloadResponse<Success, Swift.Error> where NewFailure : Swift.Error
 }
-public var AF: PayWingsOnboardingKYC.Session
+public let AF: PayWingsOnboardingKYC.Session
 extension PayWingsOnboardingKYC.PhoneNumber {
   public func adjustedNationalNumber() -> Swift.String
 }
@@ -2014,8 +2019,8 @@ public protocol CountryPickerViewDataSource : AnyObject {
   func sectionTitleLabelColor(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> UIKit.UIColor?
   func cellLabelFont(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> UIKit.UIFont
   func cellLabelColor(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> UIKit.UIColor?
-  func cellImageViewSize(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> CoreGraphics.CGSize
-  func cellImageViewCornerRadius(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> CoreGraphics.CGFloat
+  func cellImageViewSize(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> CoreFoundation.CGSize
+  func cellImageViewCornerRadius(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> CoreFoundation.CGFloat
   func navigationTitle(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> Swift.String?
   func closeButtonNavigationItem(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> UIKit.UIBarButtonItem?
   func searchBarPosition(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> PayWingsOnboardingKYC.SearchBarPosition
@@ -2033,8 +2038,8 @@ extension PayWingsOnboardingKYC.CountryPickerViewDataSource {
   public func sectionTitleLabelColor(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> UIKit.UIColor?
   public func cellLabelFont(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> UIKit.UIFont
   public func cellLabelColor(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> UIKit.UIColor?
-  public func cellImageViewCornerRadius(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> CoreGraphics.CGFloat
-  public func cellImageViewSize(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> CoreGraphics.CGSize
+  public func cellImageViewCornerRadius(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> CoreFoundation.CGFloat
+  public func cellImageViewSize(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> CoreFoundation.CGSize
   public func navigationTitle(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> Swift.String?
   public func closeButtonNavigationItem(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> UIKit.UIBarButtonItem?
   public func searchBarPosition(in countryPickerView: PayWingsOnboardingKYC.CountryPickerView) -> PayWingsOnboardingKYC.SearchBarPosition
@@ -2540,14 +2545,14 @@ extension PayWingsOnboardingKYC.DownloadRequest {
   public func validate() -> Self
 }
 extension PayWingsOnboardingKYC.Request {
-  public static var didResumeNotification: Foundation.Notification.Name
-  public static var didSuspendNotification: Foundation.Notification.Name
-  public static var didCancelNotification: Foundation.Notification.Name
-  public static var didFinishNotification: Foundation.Notification.Name
-  public static var didResumeTaskNotification: Foundation.Notification.Name
-  public static var didSuspendTaskNotification: Foundation.Notification.Name
-  public static var didCancelTaskNotification: Foundation.Notification.Name
-  public static var didCompleteTaskNotification: Foundation.Notification.Name
+  public static let didResumeNotification: Foundation.Notification.Name
+  public static let didSuspendNotification: Foundation.Notification.Name
+  public static let didCancelNotification: Foundation.Notification.Name
+  public static let didFinishNotification: Foundation.Notification.Name
+  public static let didResumeTaskNotification: Foundation.Notification.Name
+  public static let didSuspendTaskNotification: Foundation.Notification.Name
+  public static let didCancelTaskNotification: Foundation.Notification.Name
+  public static let didCompleteTaskNotification: Foundation.Notification.Name
 }
 extension Foundation.Notification {
   public var request: PayWingsOnboardingKYC.Request? {
@@ -2569,54 +2574,54 @@ extension Foundation.Notification {
   @_Concurrency.MainActor(unsafe) final public let phoneNumberKit: PayWingsOnboardingKYC.PhoneNumberKit
   @_Concurrency.MainActor(unsafe) public var flagButton: UIKit.UIButton {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var text: Swift.String? {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set(newValue)
+    @objc get
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) open func setTextUnformatted(newValue: Swift.String?)
   @_Concurrency.MainActor(unsafe) open var defaultRegion: Swift.String {
     get
     @available(*, deprecated, message: "    The setter of defaultRegion is deprecated,\n    please override defaultRegion in a subclass instead.")
-    set(newValue)
+    set
   }
   @_Concurrency.MainActor(unsafe) public var withPrefix: Swift.Bool {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) public var withFlag: Swift.Bool {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) public var withExamplePlaceholder: Swift.Bool {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) public var countryCodePlaceholderColor: UIKit.UIColor {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) public var numberPlaceholderColor: UIKit.UIColor {
     get
-    set(value)
+    set
   }
   @available(iOS 11.0, *)
   @_Concurrency.MainActor(unsafe) public var withDefaultPickerUI: Swift.Bool {
     get
-    set(newValue)
+    set
   }
   @_Concurrency.MainActor(unsafe) public var isPartialFormatterEnabled: Swift.Bool
   @_Concurrency.MainActor(unsafe) public var maxDigits: Swift.Int? {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) public var partialFormatter: PayWingsOnboardingKYC.PartialFormatter {
     get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var delegate: UIKit.UITextFieldDelegate? {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set(newValue)
+    @objc get
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) public var currentRegion: Swift.String {
     get
@@ -2631,9 +2636,9 @@ extension Foundation.Notification {
     get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) public convenience init(withPhoneNumberKit phoneNumberKit: PayWingsOnboardingKYC.PhoneNumberKit)
-  @_Concurrency.MainActor(unsafe) public init(frame: CoreGraphics.CGRect, phoneNumberKit: PayWingsOnboardingKYC.PhoneNumberKit)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) convenience public init(withPhoneNumberKit phoneNumberKit: PayWingsOnboardingKYC.PhoneNumberKit)
+  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, phoneNumberKit: PayWingsOnboardingKYC.PhoneNumberKit)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) open func updateFlag()
   @_Concurrency.MainActor(unsafe) open func updatePlaceholder()
@@ -2679,7 +2684,7 @@ extension PayWingsOnboardingKYC.SessionDelegate : Foundation.URLSessionDownloadD
   @objc dynamic open func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didFinishDownloadingTo location: Foundation.URL)
 }
 open class Session {
-  public static var `default`: PayWingsOnboardingKYC.Session
+  public static let `default`: PayWingsOnboardingKYC.Session
   final public let session: Foundation.URLSession
   final public let delegate: PayWingsOnboardingKYC.SessionDelegate
   final public let rootQueue: Dispatch.DispatchQueue
@@ -2693,7 +2698,7 @@ open class Session {
   final public let eventMonitor: PayWingsOnboardingKYC.CompositeEventMonitor
   final public let defaultEventMonitors: [PayWingsOnboardingKYC.EventMonitor]
   public init(session: Foundation.URLSession, delegate: PayWingsOnboardingKYC.SessionDelegate, rootQueue: Dispatch.DispatchQueue, startRequestsImmediately: Swift.Bool = true, requestQueue: Dispatch.DispatchQueue? = nil, serializationQueue: Dispatch.DispatchQueue? = nil, interceptor: PayWingsOnboardingKYC.RequestInterceptor? = nil, serverTrustManager: PayWingsOnboardingKYC.ServerTrustManager? = nil, redirectHandler: PayWingsOnboardingKYC.RedirectHandler? = nil, cachedResponseHandler: PayWingsOnboardingKYC.CachedResponseHandler? = nil, eventMonitors: [PayWingsOnboardingKYC.EventMonitor] = [])
-  public convenience init(configuration: Foundation.URLSessionConfiguration = URLSessionConfiguration.af.default, delegate: PayWingsOnboardingKYC.SessionDelegate = SessionDelegate(), rootQueue: Dispatch.DispatchQueue = DispatchQueue(label: "org.alamofire.session.rootQueue"), startRequestsImmediately: Swift.Bool = true, requestQueue: Dispatch.DispatchQueue? = nil, serializationQueue: Dispatch.DispatchQueue? = nil, interceptor: PayWingsOnboardingKYC.RequestInterceptor? = nil, serverTrustManager: PayWingsOnboardingKYC.ServerTrustManager? = nil, redirectHandler: PayWingsOnboardingKYC.RedirectHandler? = nil, cachedResponseHandler: PayWingsOnboardingKYC.CachedResponseHandler? = nil, eventMonitors: [PayWingsOnboardingKYC.EventMonitor] = [])
+  convenience public init(configuration: Foundation.URLSessionConfiguration = URLSessionConfiguration.af.default, delegate: PayWingsOnboardingKYC.SessionDelegate = SessionDelegate(), rootQueue: Dispatch.DispatchQueue = DispatchQueue(label: "org.alamofire.session.rootQueue"), startRequestsImmediately: Swift.Bool = true, requestQueue: Dispatch.DispatchQueue? = nil, serializationQueue: Dispatch.DispatchQueue? = nil, interceptor: PayWingsOnboardingKYC.RequestInterceptor? = nil, serverTrustManager: PayWingsOnboardingKYC.ServerTrustManager? = nil, redirectHandler: PayWingsOnboardingKYC.RedirectHandler? = nil, cachedResponseHandler: PayWingsOnboardingKYC.CachedResponseHandler? = nil, eventMonitors: [PayWingsOnboardingKYC.EventMonitor] = [])
   @objc deinit
   public func cancelAllRequests(completingOnQueue queue: Dispatch.DispatchQueue = .main, completion: (() -> Swift.Void)? = nil)
   public typealias RequestModifier = (inout Foundation.URLRequest) throws -> Swift.Void
@@ -2789,21 +2794,21 @@ public struct Style {
   public struct Shapes {
     public static var showSeparators: Swift.Bool
     public static var inputField: PayWingsOnboardingKYC.InputFieldShape
-    public static var borderWidth: CoreGraphics.CGFloat
-    public static var cornerRadius: CoreGraphics.CGFloat
+    public static var borderWidth: CoreFoundation.CGFloat
+    public static var cornerRadius: CoreFoundation.CGFloat
   }
   public struct Buttons {
-    public static var mainWidth: CoreGraphics.CGFloat
+    public static var mainWidth: CoreFoundation.CGFloat
     public static var mainStyle: PayWingsOnboardingKYC.ButtonStyle
-    public static var documentTypeWidth: CoreGraphics.CGFloat
+    public static var documentTypeWidth: CoreFoundation.CGFloat
     public static var documentTypeStyle: PayWingsOnboardingKYC.ButtonStyle
   }
   public struct Texts {
     public static var navbarTitle: Swift.String
   }
   public struct Layout {
-    public static var contentLeadingTrailingMargins: CoreGraphics.CGFloat
-    public static var contentTopMargin: CoreGraphics.CGFloat
+    public static var contentLeadingTrailingMargins: CoreFoundation.CGFloat
+    public static var contentTopMargin: CoreFoundation.CGFloat
   }
   public struct Other {
     public static var activityIndicatorStyle: UIKit.UIActivityIndicatorView.Style
@@ -2844,3 +2849,55 @@ public enum ButtonStyle {
     get
   }
 }
+extension PayWingsOnboardingKYC.URLEncoding.Destination : Swift.Equatable {}
+extension PayWingsOnboardingKYC.URLEncoding.Destination : Swift.Hashable {}
+extension PayWingsOnboardingKYC.URLEncoding.ArrayEncoding : Swift.Equatable {}
+extension PayWingsOnboardingKYC.URLEncoding.ArrayEncoding : Swift.Hashable {}
+extension PayWingsOnboardingKYC.URLEncoding.BoolEncoding : Swift.Equatable {}
+extension PayWingsOnboardingKYC.URLEncoding.BoolEncoding : Swift.Hashable {}
+extension PayWingsOnboardingKYC.URLEncodedFormEncoder.ArrayEncoding : Swift.Equatable {}
+extension PayWingsOnboardingKYC.URLEncodedFormEncoder.ArrayEncoding : Swift.Hashable {}
+extension PayWingsOnboardingKYC.URLEncodedFormEncoder.BoolEncoding : Swift.Equatable {}
+extension PayWingsOnboardingKYC.URLEncodedFormEncoder.BoolEncoding : Swift.Hashable {}
+extension PayWingsOnboardingKYC.URLEncodedFormEncoder.SpaceEncoding : Swift.Equatable {}
+extension PayWingsOnboardingKYC.URLEncodedFormEncoder.SpaceEncoding : Swift.Hashable {}
+extension PayWingsOnboardingKYC.SearchBarPosition : Swift.Equatable {}
+extension PayWingsOnboardingKYC.SearchBarPosition : Swift.Hashable {}
+extension PayWingsOnboardingKYC.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType : Swift.Equatable {}
+extension PayWingsOnboardingKYC.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType : Swift.Hashable {}
+extension PayWingsOnboardingKYC.MetadataTerritory.CodingKeys : Swift.Equatable {}
+extension PayWingsOnboardingKYC.MetadataTerritory.CodingKeys : Swift.Hashable {}
+extension PayWingsOnboardingKYC.MetadataTerritory.CodingKeys : Swift.RawRepresentable {}
+extension PayWingsOnboardingKYC.MetadataPhoneNumberFormat.CodingKeys : Swift.Equatable {}
+extension PayWingsOnboardingKYC.MetadataPhoneNumberFormat.CodingKeys : Swift.Hashable {}
+extension PayWingsOnboardingKYC.MetadataPhoneNumberFormat.CodingKeys : Swift.RawRepresentable {}
+extension PayWingsOnboardingKYC.PhoneNumberError : Swift.Equatable {}
+extension PayWingsOnboardingKYC.PhoneNumberError : Swift.Hashable {}
+extension PayWingsOnboardingKYC.PhoneNumberFormat : Swift.Equatable {}
+extension PayWingsOnboardingKYC.PhoneNumberFormat : Swift.Hashable {}
+extension PayWingsOnboardingKYC.PhoneNumberType : Swift.Equatable {}
+extension PayWingsOnboardingKYC.PhoneNumberType : Swift.Hashable {}
+extension PayWingsOnboardingKYC.PhoneNumberType : Swift.RawRepresentable {}
+extension PayWingsOnboardingKYC.PossibleLengthType : Swift.Equatable {}
+extension PayWingsOnboardingKYC.PossibleLengthType : Swift.Hashable {}
+extension PayWingsOnboardingKYC.PossibleLengthType : Swift.RawRepresentable {}
+extension PayWingsOnboardingKYC.URLEncodedFormParameterEncoder.Destination : Swift.Equatable {}
+extension PayWingsOnboardingKYC.URLEncodedFormParameterEncoder.Destination : Swift.Hashable {}
+extension PayWingsOnboardingKYC.Request.State : Swift.Equatable {}
+extension PayWingsOnboardingKYC.Request.State : Swift.Hashable {}
+extension PayWingsOnboardingKYC.AuthenticationError : Swift.Equatable {}
+extension PayWingsOnboardingKYC.AuthenticationError : Swift.Hashable {}
+extension PayWingsOnboardingKYC.SwiftyJSONError : Swift.Equatable {}
+extension PayWingsOnboardingKYC.SwiftyJSONError : Swift.Hashable {}
+extension PayWingsOnboardingKYC.SwiftyJSONError : Swift.RawRepresentable {}
+extension PayWingsOnboardingKYC.`Type` : Swift.Equatable {}
+extension PayWingsOnboardingKYC.`Type` : Swift.Hashable {}
+extension PayWingsOnboardingKYC.`Type` : Swift.RawRepresentable {}
+extension PayWingsOnboardingKYC.writingOptionsKeys : Swift.Equatable {}
+extension PayWingsOnboardingKYC.writingOptionsKeys : Swift.Hashable {}
+extension PayWingsOnboardingKYC.BackgroundStyle : Swift.Equatable {}
+extension PayWingsOnboardingKYC.BackgroundStyle : Swift.Hashable {}
+extension PayWingsOnboardingKYC.InputFieldShape : Swift.Equatable {}
+extension PayWingsOnboardingKYC.InputFieldShape : Swift.Hashable {}
+extension PayWingsOnboardingKYC.ButtonStyle : Swift.Equatable {}
+extension PayWingsOnboardingKYC.ButtonStyle : Swift.Hashable {}
