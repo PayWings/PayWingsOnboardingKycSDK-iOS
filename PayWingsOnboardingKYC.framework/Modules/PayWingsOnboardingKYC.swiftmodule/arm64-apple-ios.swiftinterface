@@ -564,11 +564,11 @@ extension Foundation.URLSessionConfiguration {
   @objc deinit
 }
 final public class KycConfig {
-  public init(credentials: PayWingsOnboardingKYC.KycCredentials, settings: PayWingsOnboardingKYC.KycSettings, userData: PayWingsOnboardingKYC.KycUserData?)
+  public init(credentials: PayWingsOnboardingKYC.KycCredentials, settings: PayWingsOnboardingKYC.KycSettings, userData: PayWingsOnboardingKYC.KycUserData? = nil, userCredentials: PayWingsOnboardingKYC.UserCredentials? = nil)
   @objc deinit
 }
 final public class KycCredentials {
-  public init(username: Swift.String, password: Swift.String, token: Swift.String?, endpointUrl: Swift.String)
+  public init(username: Swift.String, password: Swift.String, endpointUrl: Swift.String)
   @objc deinit
 }
 final public class KycSettings {
@@ -577,6 +577,10 @@ final public class KycSettings {
 }
 final public class KycUserData {
   public init(firstName: Swift.String?, middleName: Swift.String?, lastName: Swift.String?, address1: Swift.String?, address2: Swift.String?, address3: Swift.String?, zipCode: Swift.String?, city: Swift.String?, state: Swift.String?, countryCode: Swift.String?, email: Swift.String?, mobileNumber: Swift.String?)
+  @objc deinit
+}
+final public class UserCredentials {
+  public init(accessToken: Swift.String, refreshToken: Swift.String?)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CountryPickerViewController : UIKit.UITableViewController {
