@@ -507,5 +507,5 @@ SWIFT_CLASS("_TtC21PayWingsOnboardingKYC15SessionDelegate")
 #endif
 
 #else
-#error unsupported Swift architecture
+//#error unsupported Swift architecture
 #endif
