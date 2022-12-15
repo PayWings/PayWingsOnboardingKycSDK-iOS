@@ -1120,34 +1120,6 @@
 		<data>
 		WQgarCUa5hrynxk36/DakMzGJtI=
 		</data>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/Info.plist</key>
-		<data>
-		kRqytajpCo8Xj2g1ZjbcJulRcdk=
-		</data>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/Pods_PayWingsOnboardingKYC</key>
-		<data>
-		W/1Khi0tGZAIRF5/CnNALpWCyuE=
-		</data>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		5Dkh9w94IAk7gsbM9EchnMOnZHI=
-		</data>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		FDMGJSXnagtIFp7bD1Pich3Pak8=
-		</data>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		NpdilWp12KlxhLpBsGhpqnTBn6g=
-		</data>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeResources</key>
-		<data>
-		9pvIiCJ/eVluJCgPWxlePhdMl7g=
-		</data>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		cEgDPIXxjYvGvU6CakEnxUq6RC4=
-		</data>
 		<key>Headers/PayWingsOnboardingKYC-Swift.h</key>
 		<data>
 		ZZTQaQwErES2DSHrClSglSb0keY=
@@ -1210,7 +1182,7 @@
 		</data>
 		<key>PayWingsOnboardingKYC.podspec</key>
 		<data>
-		FWjAievOR0A0dO4zhOYJtTXRrTw=
+		ut+T5LME2JEcHQt3xhikg6pJ96Y=
 		</data>
 		<key>PersonalInfoViewController.storyboardc/Info.plist</key>
 		<data>
@@ -3300,55 +3272,6 @@
 			uIlLBgpLu7H0Jjc3YT5BkNJM0QsYOtwNC5ZponniMBU=
 			</data>
 		</dict>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pXQZhdj0Rva3FgpTw36vX8TswmPinrQCs493aCywhPY=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/Pods_PayWingsOnboardingKYC</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vsDMyUetufYrfBzBfsSqwQJppzfTmnCVdZBkPSO/ANk=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			klV64+zcaxA0VgfsmcRZnyaH5l+ug06HGU7bVoWebao=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tupYxau0CNxZVnjJrt4PPuOUJW4Q1dSwKeW7r3VO9XM=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oCIACUyyzVepRKtjWPAlTJKpp4tzZowT+u4Ubjmqz+4=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YrY5VARuYg7S1NMOB2MFJswLX6DNDYRwtuVSEzgsoAE=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			M1rMqYLpIZXPRf3+h6zte2IjNTkYCvtsiXbjsEqszK8=
-			</data>
-		</dict>
 		<key>Headers/PayWingsOnboardingKYC-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -3451,7 +3374,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iyKE45yMPevoFLCYeV186lTOvfBssVKc3kYsF4q3Kyk=
+			JoJG3H6P3htSdIIXkKZc77A4Cuhi9jbGqLpGgI1zRA8=
 			</data>
 		</dict>
 		<key>PersonalInfoViewController.storyboardc/Info.plist</key>

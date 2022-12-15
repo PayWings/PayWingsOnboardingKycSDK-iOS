@@ -18,10 +18,7 @@ Pod::Spec.new do |s|
      'PayWingsOnboardingKYC' => 'PayWingsOnboardingKYC.framework/*.{storyboardc,nib,lproj,bundle,json,xml}'
   }
 
-  s.source_files = 'PayWingsOnboardingKYC.framework/Headers/*.h'
-  s.public_header_files = 'PayWingsOnboardingKYC.framework/Headers/*.h'
-  s.module_map = 'PayWingsOnboardingKYC.framework/Modules/module.modulemap'
-  s.vendored_frameworks = "PayWingsOnboardingKYC.framework"
+  s.vendored_frameworks = "PayWingsOnboardingKYC.xcframework"
 
   
   s.frameworks = 'UIKit'
