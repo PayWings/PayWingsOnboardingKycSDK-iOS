@@ -14,10 +14,6 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '13.0'
 
-  s.resource_bundles = {
-     'PayWingsOnboardingKYC' => 'PayWingsOnboardingKYC.framework/*.{storyboardc,nib,lproj,bundle,json,xml}'
-  }
-
   s.vendored_frameworks = "PayWingsOnboardingKYC.xcframework"
 
   
