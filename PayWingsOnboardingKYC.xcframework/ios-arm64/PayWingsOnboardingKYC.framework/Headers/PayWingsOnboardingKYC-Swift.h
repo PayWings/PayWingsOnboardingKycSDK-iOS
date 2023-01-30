@@ -232,6 +232,7 @@ using UInt = size_t;
 #endif
 @import CoreFoundation;
 @import Foundation;
+@import IdensicMobileSDK;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -471,6 +472,13 @@ SWIFT_CLASS("_TtC21PayWingsOnboardingKYC15SessionDelegate")
 - (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didFinishCollectingMetrics:(NSURLSessionTaskMetrics * _Nonnull)metrics;
 - (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didCompleteWithError:(NSError * _Nullable)error;
 - (void)URLSession:(NSURLSession * _Nonnull)session taskIsWaitingForConnectivity:(NSURLSessionTask * _Nonnull)task SWIFT_AVAILABILITY(watchos,introduced=4.0) SWIFT_AVAILABILITY(tvos,introduced=11.0) SWIFT_AVAILABILITY(ios,introduced=11.0) SWIFT_AVAILABILITY(macos,introduced=10.13);
+@end
+
+
+SWIFT_CLASS("_TtC21PayWingsOnboardingKYC11SumSubTheme")
+@interface SumSubTheme : SNSTheme
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 

@@ -1120,9 +1120,37 @@
 		<data>
 		WQgarCUa5hrynxk36/DakMzGJtI=
 		</data>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/Info.plist</key>
+		<data>
+		kRqytajpCo8Xj2g1ZjbcJulRcdk=
+		</data>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/Pods_PayWingsOnboardingKYC</key>
+		<data>
+		pggEqGS7XRvgAg/Ydfa1Et60b0o=
+		</data>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeDirectory</key>
+		<data>
+		KcQAQKWTTpc+urb2Kfs8lg6jrWM=
+		</data>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		FDMGJSXnagtIFp7bD1Pich3Pak8=
+		</data>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		GSmT5aVovm+c31kiJXqIY2lqUJg=
+		</data>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeResources</key>
+		<data>
+		9pvIiCJ/eVluJCgPWxlePhdMl7g=
+		</data>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		NHpj8hVmILxsBLoB9OSKPYykSQc=
+		</data>
 		<key>Headers/PayWingsOnboardingKYC-Swift.h</key>
 		<data>
-		ZZTQaQwErES2DSHrClSglSb0keY=
+		j8pS558eCIGY1jAe5SAl2bqN3Sk=
 		</data>
 		<key>Headers/PayWingsOnboardingKYC.h</key>
 		<data>
@@ -1158,11 +1186,11 @@
 		</data>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		pq36PmmBG9RfeKMtxiTvc5zqJys=
+		NLJdhc+xnwbmqtPPN/bq9bYr5mI=
 		</data>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		MDQBp1Bv2Nsg7NnDQA9+8Kbuui8=
+		HLQIpSClfBvrAs7rmolZxLokHPg=
 		</data>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -1170,11 +1198,11 @@
 		</data>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		MDQBp1Bv2Nsg7NnDQA9+8Kbuui8=
+		HLQIpSClfBvrAs7rmolZxLokHPg=
 		</data>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3LMuFa/gtwiswaA/FtzhZqXfXko=
+		jsICCdWdr1TiglYXKISZfBIIdx8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1182,7 +1210,7 @@
 		</data>
 		<key>PayWingsOnboardingKYC.podspec</key>
 		<data>
-		flqJECeSFUZeD+Le4EsLcddvHzU=
+		QxhvQy5MHPjLiuSvMCPpFizlNfI=
 		</data>
 		<key>PersonalInfoViewController.storyboardc/Info.plist</key>
 		<data>
@@ -1230,7 +1258,7 @@
 		</data>
 		<key>Podfile</key>
 		<data>
-		gV58YUEl0muEsSa3ta9uJN17Q5M=
+		lvj7FnTFVLNKZ2hYG1sczF/DQuo=
 		</data>
 		<key>ReferenceNumberViewController.storyboardc/0tV-kM-cH3-view-DAE-BO-lqb.nib</key>
 		<data>
@@ -1298,6 +1326,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>xcFramework build script.txt</key>
+		<data>
+		jx1leWdhaW53s2WKlNHAurnPYhY=
+		</data>
 		<key>zh-Hans.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -3272,11 +3304,60 @@
 			uIlLBgpLu7H0Jjc3YT5BkNJM0QsYOtwNC5ZponniMBU=
 			</data>
 		</dict>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pXQZhdj0Rva3FgpTw36vX8TswmPinrQCs493aCywhPY=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/Pods_PayWingsOnboardingKYC</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zRuyZrLb09aK1iH/8qzgXnzbD3dGLuQ7m6TobEppBIE=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FHI60JirgwgafLjcuoNxvA7DElSqysyLRxFO2MLa9Vs=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tupYxau0CNxZVnjJrt4PPuOUJW4Q1dSwKeW7r3VO9XM=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TAgDVDrg7IsUu0GaXPWkX23P0oI1HXvBGJTc/qZQNE8=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YrY5VARuYg7S1NMOB2MFJswLX6DNDYRwtuVSEzgsoAE=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_PayWingsOnboardingKYC.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AnGsNPKaf5Y/jROHJFKloo6LFs0PkqQXnbr/HPS0ybY=
+			</data>
+		</dict>
 		<key>Headers/PayWingsOnboardingKYC-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BN+z4C4bV49DAPVP8RryZSX2KTjFa9hNil5TNdUKTME=
+			GGq0+6VLQZNHfsj16jqUDCQ/wh8IQm4N8wb3+CkMIvw=
 			</data>
 		</dict>
 		<key>Headers/PayWingsOnboardingKYC.h</key>
@@ -3332,14 +3413,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mFx+u8S199naqd/P+ddE0VELkX7xA6W8LqPHGhPxIWQ=
+			dEzwshPTFVLFUS3VJdd+PX6nnU04QhpX68umwYtdgZ8=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mcHvlYbCcmL9xLNQeRhpOtETnuvnBgNRHjaNCVXwybo=
+			Ay1AJWq8ApFQ8HUNEEnkmc819PkmpMja1oOP4tzvlqY=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -3353,14 +3434,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mcHvlYbCcmL9xLNQeRhpOtETnuvnBgNRHjaNCVXwybo=
+			Ay1AJWq8ApFQ8HUNEEnkmc819PkmpMja1oOP4tzvlqY=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOnboardingKYC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PS+I+g8dgBvyoj5XQzFJZh2irkgv/Q2t8i2tWRklu5w=
+			QinIi+oZ+a0qVONInSQqAY+8J0gKeg9e7IMX2434lBs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -3374,7 +3455,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			McwmXZoTpNoCM3PuIG2xKyyL7NJFRIBv33307JwCqq4=
+			A3EeaDqjlqdum/eQsXr2+8BGPC7J7eujqwuoUp5R+10=
 			</data>
 		</dict>
 		<key>PersonalInfoViewController.storyboardc/Info.plist</key>
@@ -3458,7 +3539,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YecQtMq397IKnIO0fBndIltYZveV4rB4J5rLnjUSCBo=
+			jZzz0zNk2qSOVm7CKnv8Mi23SWz7C1BL6g41XGn/H5A=
 			</data>
 		</dict>
 		<key>ReferenceNumberViewController.storyboardc/0tV-kM-cH3-view-DAE-BO-lqb.nib</key>
@@ -3562,6 +3643,13 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>xcFramework build script.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Uoyq+Ne4ixaKx4qhTLFWpINaGUZAphjy8n+oAIHpgKs=
+			</data>
 		</dict>
 		<key>zh-Hans.lproj/Localizable.strings</key>
 		<dict>

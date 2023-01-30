@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PayWingsOnboardingKYC'
-  s.version          = '5.1.2'
+  s.version          = '5.1.3'
   s.summary          = 'KYC user identification and verification.'
 
   s.description      = 'PayWings Onboarding KYC SDK for iOS is a service that allows third-party apps to easily include user identification and verification into their iOS apps. This service identifies the user using their official ID documents through a video in real-time.'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.paywings.com'
   s.license          = { :type => 'Copyright', :text => 'Copyright 2020 Intech d.o.o. All rights reserved.\n' }
   s.author           = { 'tjasajan' => 'tjasa@paywings.com' }
-  s.source           = { :http => 'https://github.com/PayWings/PayWingsOnboardingKycSDK-iOS/archive/v5.1.2.tar.gz' }
+  s.source           = { :http => 'https://github.com/PayWings/PayWingsOnboardingKycSDK-iOS/archive/v5.1.3.tar.gz' }
 
   s.swift_versions = ['5']
   

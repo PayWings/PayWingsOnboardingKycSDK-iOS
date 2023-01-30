@@ -2776,7 +2776,11 @@ extension PayWingsOnboardingKYC.CountryCodePickerViewController {
     @objc deinit
   }
 }
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SumSubTheme : IdensicMobileSDK.SNSTheme {
+  @objc deinit
+}
 public struct Style {
+  public static var VideoTheme: PayWingsOnboardingKYC.SumSubTheme
   public struct Colors {
     public static var backgroundColor: UIKit.UIColor
     public static var secondaryBackgroundColor: UIKit.UIColor
