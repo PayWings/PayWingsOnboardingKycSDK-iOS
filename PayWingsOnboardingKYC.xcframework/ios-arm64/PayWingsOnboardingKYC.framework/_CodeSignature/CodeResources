@@ -1298,10 +1298,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>xcFramework build script.txt</key>
-		<data>
-		EiLNrqXXb3lB3eckhKwYG1Pq6Jk=
-		</data>
 		<key>zh-Hans.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -3566,13 +3562,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>xcFramework build script.txt</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			p6OJ8Zq8HNPHzL1H528UoZQZo6YStb+lOKt6YlQ1jR4=
-			</data>
 		</dict>
 		<key>zh-Hans.lproj/Localizable.strings</key>
 		<dict>
