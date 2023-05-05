@@ -95407,7 +95407,161 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6168,
+      "offset": 1652,
+      "length": 32,
+      "value": "\": SumSub initialization failed\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1904,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1960,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2335,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2546,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2677,
+      "length": 99,
+      "value": "\"onStatusDidChange: [\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2733,
+      "length": 1,
+      "value": "\"] -> [\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2774,
+      "length": 1,
+      "value": "\"]\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2968,
+      "length": 88,
+      "value": "\"onDidDismiss: sdk has been dismissed with status [\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3054,
+      "length": 1,
+      "value": "\"]\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3722,
+      "length": 78,
+      "value": "\"failReason: [\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3775,
+      "length": 1,
+      "value": "\"] - \""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3799,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3904,
+      "length": 35,
+      "value": "\": Video failed with state: Failed\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3991,
+      "length": 38,
+      "value": "\"No verification steps are passed yet\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4264,
+      "length": 66,
+      "value": "\"Some but not all of the verification steps have been passed over\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4475,
+      "length": 25,
+      "value": "\"Verification is pending\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4621,
+      "length": 41,
+      "value": "\"Applicant has been temporarily declined\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4779,
+      "length": 37,
+      "value": "\"Applicant has been finally rejected\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4926,
+      "length": 29,
+      "value": "\"Applicant has been approved\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5072,
+      "length": 37,
+      "value": "\"Applicant action has been completed\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5284,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6478,
       "length": 2,
       "value": "\"\""
     },
