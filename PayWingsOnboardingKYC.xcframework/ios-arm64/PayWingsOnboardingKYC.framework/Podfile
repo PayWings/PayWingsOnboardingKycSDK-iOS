@@ -8,7 +8,7 @@ target 'PayWingsOnboardingKYC' do
   # Pods for PayWingsOnboardingKYC
 
   pod 'VideoID', '7.1.31'
-  pod 'IdensicMobileSDK', :http => 'https://github.com/PayWings/PayWingsOnboardingKycSDK-iOS-IdensicMobile/archive/v2.1.0.tar.gz'
+  pod 'IdensicMobileSDK', :http => 'https://github.com/PayWings/PayWingsOnboardingKycSDK-iOS-IdensicMobile/archive/v2.2.0.tar.gz'
 
 
 
