@@ -564,7 +564,7 @@ extension Foundation.URLSessionConfiguration {
   @objc deinit
 }
 final public class KycConfig {
-  public init(credentials: PayWingsOnboardingKYC.KycCredentials, settings: PayWingsOnboardingKYC.KycSettings, userData: PayWingsOnboardingKYC.KycUserData? = nil, userCredentials: PayWingsOnboardingKYC.UserCredentials? = nil)
+  public init(credentials: PayWingsOnboardingKYC.KycCredentials, settings: PayWingsOnboardingKYC.KycSettings, userData: PayWingsOnboardingKYC.KycUserData? = nil, userCredentials: PayWingsOnboardingKYC.UserCredentials)
   @objc deinit
 }
 final public class KycCredentials {
@@ -580,7 +580,7 @@ final public class KycUserData {
   @objc deinit
 }
 final public class UserCredentials {
-  public init(accessToken: Swift.String, refreshToken: Swift.String?)
+  public init(accessToken: Swift.String, refreshToken: Swift.String)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CountryPickerViewController : UIKit.UITableViewController {
