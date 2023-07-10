@@ -95558,70 +95558,63 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5130,
+      "offset": 5132,
       "length": 41,
       "value": "\"Applicant has been temporarily declined\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5219,
+      "offset": 5221,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5355,
+      "offset": 5359,
       "length": 37,
       "value": "\"Applicant has been finally rejected\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5440,
+      "offset": 5444,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5569,
+      "offset": 5575,
       "length": 29,
       "value": "\"Applicant has been approved\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5646,
+      "offset": 5652,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5782,
+      "offset": 5790,
       "length": 37,
       "value": "\"Applicant action has been completed\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6055,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6095,
+      "offset": 6082,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7263,
+      "offset": 7250,
       "length": 2,
       "value": "\"\""
     },
