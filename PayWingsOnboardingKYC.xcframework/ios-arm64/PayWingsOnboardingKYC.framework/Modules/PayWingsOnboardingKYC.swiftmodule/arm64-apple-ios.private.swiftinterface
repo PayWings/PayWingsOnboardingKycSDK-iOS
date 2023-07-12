@@ -65,6 +65,7 @@ public struct URLEncoding : PayWingsOnboardingKYC.ParameterEncoding {
   public enum ArrayEncoding {
     case brackets
     case noBrackets
+    case indexInBrackets
     public static func == (a: PayWingsOnboardingKYC.URLEncoding.ArrayEncoding, b: PayWingsOnboardingKYC.URLEncoding.ArrayEncoding) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
@@ -113,6 +114,7 @@ final public class URLEncodedFormEncoder {
   public enum ArrayEncoding {
     case brackets
     case noBrackets
+    case indexInBrackets
     public static func == (a: PayWingsOnboardingKYC.URLEncodedFormEncoder.ArrayEncoding, b: PayWingsOnboardingKYC.URLEncodedFormEncoder.ArrayEncoding) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
@@ -202,6 +204,16 @@ public struct GoogleXSSIPreprocessor : PayWingsOnboardingKYC.DataPreprocessor {
   public init()
   public func preprocess(_ data: Foundation.Data) throws -> Foundation.Data
 }
+extension PayWingsOnboardingKYC.DataPreprocessor where Self == PayWingsOnboardingKYC.PassthroughPreprocessor {
+  public static var passthrough: PayWingsOnboardingKYC.PassthroughPreprocessor {
+    get
+  }
+}
+extension PayWingsOnboardingKYC.DataPreprocessor where Self == PayWingsOnboardingKYC.GoogleXSSIPreprocessor {
+  public static var googleXSSI: PayWingsOnboardingKYC.GoogleXSSIPreprocessor {
+    get
+  }
+}
 extension PayWingsOnboardingKYC.ResponseSerializer {
   public static var defaultDataPreprocessor: PayWingsOnboardingKYC.DataPreprocessor {
     get
@@ -233,12 +245,30 @@ extension PayWingsOnboardingKYC.DataRequest {
   public func response(queue: Dispatch.DispatchQueue = .main, completionHandler: @escaping (PayWingsOnboardingKYC.AFDataResponse<Foundation.Data?>) -> Swift.Void) -> Self
   @discardableResult
   public func response<Serializer>(queue: Dispatch.DispatchQueue = .main, responseSerializer: Serializer, completionHandler: @escaping (PayWingsOnboardingKYC.AFDataResponse<Serializer.SerializedObject>) -> Swift.Void) -> Self where Serializer : PayWingsOnboardingKYC.DataResponseSerializerProtocol
+  @discardableResult
+  public func response<Serializer>(queue: Dispatch.DispatchQueue = .main, responseSerializer: Serializer, completionHandler: @escaping (PayWingsOnboardingKYC.AFDataResponse<Serializer.SerializedObject>) -> Swift.Void) -> Self where Serializer : PayWingsOnboardingKYC.ResponseSerializer
 }
 extension PayWingsOnboardingKYC.DownloadRequest {
   @discardableResult
   public func response(queue: Dispatch.DispatchQueue = .main, completionHandler: @escaping (PayWingsOnboardingKYC.AFDownloadResponse<Foundation.URL?>) -> Swift.Void) -> Self
   @discardableResult
   public func response<Serializer>(queue: Dispatch.DispatchQueue = .main, responseSerializer: Serializer, completionHandler: @escaping (PayWingsOnboardingKYC.AFDownloadResponse<Serializer.SerializedObject>) -> Swift.Void) -> Self where Serializer : PayWingsOnboardingKYC.DownloadResponseSerializerProtocol
+  @discardableResult
+  public func response<Serializer>(queue: Dispatch.DispatchQueue = .main, responseSerializer: Serializer, completionHandler: @escaping (PayWingsOnboardingKYC.AFDownloadResponse<Serializer.SerializedObject>) -> Swift.Void) -> Self where Serializer : PayWingsOnboardingKYC.ResponseSerializer
+}
+public struct URLResponseSerializer : PayWingsOnboardingKYC.DownloadResponseSerializerProtocol {
+  public init()
+  public func serializeDownload(request: Foundation.URLRequest?, response: Foundation.HTTPURLResponse?, fileURL: Foundation.URL?, error: Swift.Error?) throws -> Foundation.URL
+  public typealias SerializedObject = Foundation.URL
+}
+extension PayWingsOnboardingKYC.DownloadResponseSerializerProtocol where Self == PayWingsOnboardingKYC.URLResponseSerializer {
+  public static var url: PayWingsOnboardingKYC.URLResponseSerializer {
+    get
+  }
+}
+extension PayWingsOnboardingKYC.DownloadRequest {
+  @discardableResult
+  public func responseURL(queue: Dispatch.DispatchQueue = .main, completionHandler: @escaping (PayWingsOnboardingKYC.AFDownloadResponse<Foundation.URL>) -> Swift.Void) -> Self
 }
 final public class DataResponseSerializer : PayWingsOnboardingKYC.ResponseSerializer {
   final public let dataPreprocessor: PayWingsOnboardingKYC.DataPreprocessor
@@ -248,6 +278,12 @@ final public class DataResponseSerializer : PayWingsOnboardingKYC.ResponseSerial
   final public func serialize(request: Foundation.URLRequest?, response: Foundation.HTTPURLResponse?, data: Foundation.Data?, error: Swift.Error?) throws -> Foundation.Data
   public typealias SerializedObject = Foundation.Data
   @objc deinit
+}
+extension PayWingsOnboardingKYC.ResponseSerializer where Self == PayWingsOnboardingKYC.DataResponseSerializer {
+  public static var data: PayWingsOnboardingKYC.DataResponseSerializer {
+    get
+  }
+  public static func data(dataPreprocessor: PayWingsOnboardingKYC.DataPreprocessor = DataResponseSerializer.defaultDataPreprocessor, emptyResponseCodes: Swift.Set<Swift.Int> = DataResponseSerializer.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = DataResponseSerializer.defaultEmptyRequestMethods) -> PayWingsOnboardingKYC.DataResponseSerializer
 }
 extension PayWingsOnboardingKYC.DataRequest {
   @discardableResult
@@ -267,6 +303,12 @@ final public class StringResponseSerializer : PayWingsOnboardingKYC.ResponseSeri
   public typealias SerializedObject = Swift.String
   @objc deinit
 }
+extension PayWingsOnboardingKYC.ResponseSerializer where Self == PayWingsOnboardingKYC.StringResponseSerializer {
+  public static var string: PayWingsOnboardingKYC.StringResponseSerializer {
+    get
+  }
+  public static func string(dataPreprocessor: PayWingsOnboardingKYC.DataPreprocessor = StringResponseSerializer.defaultDataPreprocessor, encoding: Swift.String.Encoding? = nil, emptyResponseCodes: Swift.Set<Swift.Int> = StringResponseSerializer.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = StringResponseSerializer.defaultEmptyRequestMethods) -> PayWingsOnboardingKYC.StringResponseSerializer
+}
 extension PayWingsOnboardingKYC.DataRequest {
   @discardableResult
   public func responseString(queue: Dispatch.DispatchQueue = .main, dataPreprocessor: PayWingsOnboardingKYC.DataPreprocessor = StringResponseSerializer.defaultDataPreprocessor, encoding: Swift.String.Encoding? = nil, emptyResponseCodes: Swift.Set<Swift.Int> = StringResponseSerializer.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = StringResponseSerializer.defaultEmptyRequestMethods, completionHandler: @escaping (PayWingsOnboardingKYC.AFDataResponse<Swift.String>) -> Swift.Void) -> Self
@@ -275,6 +317,7 @@ extension PayWingsOnboardingKYC.DownloadRequest {
   @discardableResult
   public func responseString(queue: Dispatch.DispatchQueue = .main, dataPreprocessor: PayWingsOnboardingKYC.DataPreprocessor = StringResponseSerializer.defaultDataPreprocessor, encoding: Swift.String.Encoding? = nil, emptyResponseCodes: Swift.Set<Swift.Int> = StringResponseSerializer.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = StringResponseSerializer.defaultEmptyRequestMethods, completionHandler: @escaping (PayWingsOnboardingKYC.AFDownloadResponse<Swift.String>) -> Swift.Void) -> Self
 }
+@available(*, deprecated, message: "JSONResponseSerializer deprecated and will be removed in Alamofire 6. Use DecodableResponseSerializer instead.")
 final public class JSONResponseSerializer : PayWingsOnboardingKYC.ResponseSerializer {
   final public let dataPreprocessor: PayWingsOnboardingKYC.DataPreprocessor
   final public let emptyResponseCodes: Swift.Set<Swift.Int>
@@ -286,10 +329,12 @@ final public class JSONResponseSerializer : PayWingsOnboardingKYC.ResponseSerial
   @objc deinit
 }
 extension PayWingsOnboardingKYC.DataRequest {
+  @available(*, deprecated, message: "responseJSON deprecated and will be removed in Alamofire 6. Use responseDecodable instead.")
   @discardableResult
   public func responseJSON(queue: Dispatch.DispatchQueue = .main, dataPreprocessor: PayWingsOnboardingKYC.DataPreprocessor = JSONResponseSerializer.defaultDataPreprocessor, emptyResponseCodes: Swift.Set<Swift.Int> = JSONResponseSerializer.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = JSONResponseSerializer.defaultEmptyRequestMethods, options: Foundation.JSONSerialization.ReadingOptions = .allowFragments, completionHandler: @escaping (PayWingsOnboardingKYC.AFDataResponse<Any>) -> Swift.Void) -> Self
 }
 extension PayWingsOnboardingKYC.DownloadRequest {
+  @available(*, deprecated, message: "responseJSON deprecated and will be removed in Alamofire 6. Use responseDecodable instead.")
   @discardableResult
   public func responseJSON(queue: Dispatch.DispatchQueue = .main, dataPreprocessor: PayWingsOnboardingKYC.DataPreprocessor = JSONResponseSerializer.defaultDataPreprocessor, emptyResponseCodes: Swift.Set<Swift.Int> = JSONResponseSerializer.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = JSONResponseSerializer.defaultEmptyRequestMethods, options: Foundation.JSONSerialization.ReadingOptions = .allowFragments, completionHandler: @escaping (PayWingsOnboardingKYC.AFDownloadResponse<Any>) -> Swift.Void) -> Self
 }
@@ -321,6 +366,9 @@ final public class DecodableResponseSerializer<T> : PayWingsOnboardingKYC.Respon
   public typealias SerializedObject = T
   @objc deinit
 }
+extension PayWingsOnboardingKYC.ResponseSerializer {
+  public static func decodable<T>(of type: T.Type, dataPreprocessor: PayWingsOnboardingKYC.DataPreprocessor = DecodableResponseSerializer<T>.defaultDataPreprocessor, decoder: PayWingsOnboardingKYC.DataDecoder = JSONDecoder(), emptyResponseCodes: Swift.Set<Swift.Int> = DecodableResponseSerializer<T>.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = DecodableResponseSerializer<T>.defaultEmptyRequestMethods) -> PayWingsOnboardingKYC.DecodableResponseSerializer<T> where Self == PayWingsOnboardingKYC.DecodableResponseSerializer<T>, T : Swift.Decodable
+}
 extension PayWingsOnboardingKYC.DataRequest {
   @discardableResult
   public func responseDecodable<T>(of type: T.Type = T.self, queue: Dispatch.DispatchQueue = .main, dataPreprocessor: PayWingsOnboardingKYC.DataPreprocessor = DecodableResponseSerializer<T>.defaultDataPreprocessor, decoder: PayWingsOnboardingKYC.DataDecoder = JSONDecoder(), emptyResponseCodes: Swift.Set<Swift.Int> = DecodableResponseSerializer<T>.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = DecodableResponseSerializer<T>.defaultEmptyRequestMethods, completionHandler: @escaping (PayWingsOnboardingKYC.AFDataResponse<T>) -> Swift.Void) -> Self where T : Swift.Decodable
@@ -341,12 +389,27 @@ public struct DecodableStreamSerializer<T> : PayWingsOnboardingKYC.DataStreamSer
   public typealias SerializedObject = T
 }
 public struct PassthroughStreamSerializer : PayWingsOnboardingKYC.DataStreamSerializer {
+  public init()
   public func serialize(_ data: Foundation.Data) throws -> Foundation.Data
   public typealias SerializedObject = Foundation.Data
 }
 public struct StringStreamSerializer : PayWingsOnboardingKYC.DataStreamSerializer {
+  public init()
   public func serialize(_ data: Foundation.Data) throws -> Swift.String
   public typealias SerializedObject = Swift.String
+}
+extension PayWingsOnboardingKYC.DataStreamSerializer {
+  public static func decodable<T>(of type: T.Type, decoder: PayWingsOnboardingKYC.DataDecoder = JSONDecoder(), dataPreprocessor: PayWingsOnboardingKYC.DataPreprocessor = PassthroughPreprocessor()) -> Self where Self == PayWingsOnboardingKYC.DecodableStreamSerializer<T>, T : Swift.Decodable
+}
+extension PayWingsOnboardingKYC.DataStreamSerializer where Self == PayWingsOnboardingKYC.PassthroughStreamSerializer {
+  public static var passthrough: PayWingsOnboardingKYC.PassthroughStreamSerializer {
+    get
+  }
+}
+extension PayWingsOnboardingKYC.DataStreamSerializer where Self == PayWingsOnboardingKYC.StringStreamSerializer {
+  public static var string: PayWingsOnboardingKYC.StringStreamSerializer {
+    get
+  }
 }
 extension PayWingsOnboardingKYC.DataStreamRequest {
   @discardableResult
@@ -645,6 +708,15 @@ public struct ResponseCacher {
 extension PayWingsOnboardingKYC.ResponseCacher : PayWingsOnboardingKYC.CachedResponseHandler {
   public func dataTask(_ task: Foundation.URLSessionDataTask, willCacheResponse response: Foundation.CachedURLResponse, completion: @escaping (Foundation.CachedURLResponse?) -> Swift.Void)
 }
+extension PayWingsOnboardingKYC.CachedResponseHandler where Self == PayWingsOnboardingKYC.ResponseCacher {
+  public static var cache: PayWingsOnboardingKYC.ResponseCacher {
+    get
+  }
+  public static var doNotCache: PayWingsOnboardingKYC.ResponseCacher {
+    get
+  }
+  public static func modify(using closure: @escaping ((Foundation.URLSessionDataTask, Foundation.CachedURLResponse) -> Foundation.CachedURLResponse?)) -> PayWingsOnboardingKYC.ResponseCacher
+}
 public struct MetadataTerritory : Swift.Decodable {
   public let codeID: Swift.String
   public let countryCode: Swift.UInt64
@@ -707,9 +779,21 @@ open class RetryPolicy : PayWingsOnboardingKYC.RequestInterceptor {
   open func shouldRetry(request: PayWingsOnboardingKYC.Request, dueTo error: Swift.Error) -> Swift.Bool
   @objc deinit
 }
+extension PayWingsOnboardingKYC.RequestInterceptor where Self == PayWingsOnboardingKYC.RetryPolicy {
+  public static var retryPolicy: PayWingsOnboardingKYC.RetryPolicy {
+    get
+  }
+  public static func retryPolicy(retryLimit: Swift.UInt = RetryPolicy.defaultRetryLimit, exponentialBackoffBase: Swift.UInt = RetryPolicy.defaultExponentialBackoffBase, exponentialBackoffScale: Swift.Double = RetryPolicy.defaultExponentialBackoffScale, retryableHTTPMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = RetryPolicy.defaultRetryableHTTPMethods, retryableHTTPStatusCodes: Swift.Set<Swift.Int> = RetryPolicy.defaultRetryableHTTPStatusCodes, retryableURLErrorCodes: Swift.Set<Foundation.URLError.Code> = RetryPolicy.defaultRetryableURLErrorCodes) -> PayWingsOnboardingKYC.RetryPolicy
+}
 open class ConnectionLostRetryPolicy : PayWingsOnboardingKYC.RetryPolicy {
   public init(retryLimit: Swift.UInt = RetryPolicy.defaultRetryLimit, exponentialBackoffBase: Swift.UInt = RetryPolicy.defaultExponentialBackoffBase, exponentialBackoffScale: Swift.Double = RetryPolicy.defaultExponentialBackoffScale, retryableHTTPMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = RetryPolicy.defaultRetryableHTTPMethods)
   @objc deinit
+}
+extension PayWingsOnboardingKYC.RequestInterceptor where Self == PayWingsOnboardingKYC.ConnectionLostRetryPolicy {
+  public static var connectionLostRetryPolicy: PayWingsOnboardingKYC.ConnectionLostRetryPolicy {
+    get
+  }
+  public static func connectionLostRetryPolicy(retryLimit: Swift.UInt = RetryPolicy.defaultRetryLimit, exponentialBackoffBase: Swift.UInt = RetryPolicy.defaultExponentialBackoffBase, exponentialBackoffScale: Swift.Double = RetryPolicy.defaultExponentialBackoffScale, retryableHTTPMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = RetryPolicy.defaultRetryableHTTPMethods) -> PayWingsOnboardingKYC.ConnectionLostRetryPolicy
 }
 @objc open class PhoneNumberFormatter : Foundation.Formatter {
   final public let phoneNumberKit: PayWingsOnboardingKYC.PhoneNumberKit
@@ -898,20 +982,41 @@ final public class RevocationTrustEvaluator : PayWingsOnboardingKYC.ServerTrustE
   final public func evaluate(_ trust: Security.SecTrust, forHost host: Swift.String) throws
   @objc deinit
 }
+extension PayWingsOnboardingKYC.ServerTrustEvaluating where Self == PayWingsOnboardingKYC.RevocationTrustEvaluator {
+  public static var revocationChecking: PayWingsOnboardingKYC.RevocationTrustEvaluator {
+    get
+  }
+  public static func revocationChecking(performDefaultValidation: Swift.Bool = true, validateHost: Swift.Bool = true, options: PayWingsOnboardingKYC.RevocationTrustEvaluator.Options = .any) -> PayWingsOnboardingKYC.RevocationTrustEvaluator
+}
 final public class PinnedCertificatesTrustEvaluator : PayWingsOnboardingKYC.ServerTrustEvaluating {
   public init(certificates: [Security.SecCertificate] = Bundle.main.af.certificates, acceptSelfSignedCertificates: Swift.Bool = false, performDefaultValidation: Swift.Bool = true, validateHost: Swift.Bool = true)
   final public func evaluate(_ trust: Security.SecTrust, forHost host: Swift.String) throws
   @objc deinit
+}
+extension PayWingsOnboardingKYC.ServerTrustEvaluating where Self == PayWingsOnboardingKYC.PinnedCertificatesTrustEvaluator {
+  public static var pinnedCertificates: PayWingsOnboardingKYC.PinnedCertificatesTrustEvaluator {
+    get
+  }
+  public static func pinnedCertificates(certificates: [Security.SecCertificate] = Bundle.main.af.certificates, acceptSelfSignedCertificates: Swift.Bool = false, performDefaultValidation: Swift.Bool = true, validateHost: Swift.Bool = true) -> PayWingsOnboardingKYC.PinnedCertificatesTrustEvaluator
 }
 final public class PublicKeysTrustEvaluator : PayWingsOnboardingKYC.ServerTrustEvaluating {
   public init(keys: [Security.SecKey] = Bundle.main.af.publicKeys, performDefaultValidation: Swift.Bool = true, validateHost: Swift.Bool = true)
   final public func evaluate(_ trust: Security.SecTrust, forHost host: Swift.String) throws
   @objc deinit
 }
+extension PayWingsOnboardingKYC.ServerTrustEvaluating where Self == PayWingsOnboardingKYC.PublicKeysTrustEvaluator {
+  public static var publicKeys: PayWingsOnboardingKYC.PublicKeysTrustEvaluator {
+    get
+  }
+  public static func publicKeys(keys: [Security.SecKey] = Bundle.main.af.publicKeys, performDefaultValidation: Swift.Bool = true, validateHost: Swift.Bool = true) -> PayWingsOnboardingKYC.PublicKeysTrustEvaluator
+}
 final public class CompositeTrustEvaluator : PayWingsOnboardingKYC.ServerTrustEvaluating {
   public init(evaluators: [PayWingsOnboardingKYC.ServerTrustEvaluating])
   final public func evaluate(_ trust: Security.SecTrust, forHost host: Swift.String) throws
   @objc deinit
+}
+extension PayWingsOnboardingKYC.ServerTrustEvaluating where Self == PayWingsOnboardingKYC.CompositeTrustEvaluator {
+  public static func composite(evaluators: [PayWingsOnboardingKYC.ServerTrustEvaluating]) -> PayWingsOnboardingKYC.CompositeTrustEvaluator
 }
 @available(*, deprecated, renamed: "DisabledTrustEvaluator", message: "DisabledEvaluator has been renamed DisabledTrustEvaluator.")
 public typealias DisabledEvaluator = PayWingsOnboardingKYC.DisabledTrustEvaluator
@@ -1100,8 +1205,25 @@ public struct Redirector {
 extension PayWingsOnboardingKYC.Redirector : PayWingsOnboardingKYC.RedirectHandler {
   public func task(_ task: Foundation.URLSessionTask, willBeRedirectedTo request: Foundation.URLRequest, for response: Foundation.HTTPURLResponse, completion: @escaping (Foundation.URLRequest?) -> Swift.Void)
 }
+extension PayWingsOnboardingKYC.RedirectHandler where Self == PayWingsOnboardingKYC.Redirector {
+  public static var follow: PayWingsOnboardingKYC.Redirector {
+    get
+  }
+  public static var doNotFollow: PayWingsOnboardingKYC.Redirector {
+    get
+  }
+  public static func modify(using closure: @escaping (Foundation.URLSessionTask, Foundation.URLRequest, Foundation.HTTPURLResponse) -> Foundation.URLRequest?) -> PayWingsOnboardingKYC.Redirector
+}
+public struct RequestAdapterState {
+  public let requestID: Foundation.UUID
+  public let session: PayWingsOnboardingKYC.Session
+}
 public protocol RequestAdapter {
   func adapt(_ urlRequest: Foundation.URLRequest, for session: PayWingsOnboardingKYC.Session, completion: @escaping (Swift.Result<Foundation.URLRequest, Swift.Error>) -> Swift.Void)
+  func adapt(_ urlRequest: Foundation.URLRequest, using state: PayWingsOnboardingKYC.RequestAdapterState, completion: @escaping (Swift.Result<Foundation.URLRequest, Swift.Error>) -> Swift.Void)
+}
+extension PayWingsOnboardingKYC.RequestAdapter {
+  public func adapt(_ urlRequest: Foundation.URLRequest, using state: PayWingsOnboardingKYC.RequestAdapterState, completion: @escaping (Swift.Result<Foundation.URLRequest, Swift.Error>) -> Swift.Void)
 }
 public enum RetryResult {
   case retry
@@ -1123,12 +1245,19 @@ public typealias RetryHandler = (PayWingsOnboardingKYC.Request, PayWingsOnboardi
 open class Adapter : PayWingsOnboardingKYC.RequestInterceptor {
   public init(_ adaptHandler: @escaping PayWingsOnboardingKYC.AdaptHandler)
   open func adapt(_ urlRequest: Foundation.URLRequest, for session: PayWingsOnboardingKYC.Session, completion: @escaping (Swift.Result<Foundation.URLRequest, Swift.Error>) -> Swift.Void)
+  open func adapt(_ urlRequest: Foundation.URLRequest, using state: PayWingsOnboardingKYC.RequestAdapterState, completion: @escaping (Swift.Result<Foundation.URLRequest, Swift.Error>) -> Swift.Void)
   @objc deinit
+}
+extension PayWingsOnboardingKYC.RequestAdapter where Self == PayWingsOnboardingKYC.Adapter {
+  public static func adapter(using closure: @escaping PayWingsOnboardingKYC.AdaptHandler) -> PayWingsOnboardingKYC.Adapter
 }
 open class Retrier : PayWingsOnboardingKYC.RequestInterceptor {
   public init(_ retryHandler: @escaping PayWingsOnboardingKYC.RetryHandler)
   open func retry(_ request: PayWingsOnboardingKYC.Request, for session: PayWingsOnboardingKYC.Session, dueTo error: Swift.Error, completion: @escaping (PayWingsOnboardingKYC.RetryResult) -> Swift.Void)
   @objc deinit
+}
+extension PayWingsOnboardingKYC.RequestRetrier where Self == PayWingsOnboardingKYC.Retrier {
+  public static func retrier(using closure: @escaping PayWingsOnboardingKYC.RetryHandler) -> PayWingsOnboardingKYC.Retrier
 }
 open class Interceptor : PayWingsOnboardingKYC.RequestInterceptor {
   final public let adapters: [PayWingsOnboardingKYC.RequestAdapter]
@@ -1137,14 +1266,23 @@ open class Interceptor : PayWingsOnboardingKYC.RequestInterceptor {
   public init(adapter: PayWingsOnboardingKYC.RequestAdapter, retrier: PayWingsOnboardingKYC.RequestRetrier)
   public init(adapters: [PayWingsOnboardingKYC.RequestAdapter] = [], retriers: [PayWingsOnboardingKYC.RequestRetrier] = [], interceptors: [PayWingsOnboardingKYC.RequestInterceptor] = [])
   open func adapt(_ urlRequest: Foundation.URLRequest, for session: PayWingsOnboardingKYC.Session, completion: @escaping (Swift.Result<Foundation.URLRequest, Swift.Error>) -> Swift.Void)
+  open func adapt(_ urlRequest: Foundation.URLRequest, using state: PayWingsOnboardingKYC.RequestAdapterState, completion: @escaping (Swift.Result<Foundation.URLRequest, Swift.Error>) -> Swift.Void)
   open func retry(_ request: PayWingsOnboardingKYC.Request, for session: PayWingsOnboardingKYC.Session, dueTo error: Swift.Error, completion: @escaping (PayWingsOnboardingKYC.RetryResult) -> Swift.Void)
   @objc deinit
+}
+extension PayWingsOnboardingKYC.RequestInterceptor where Self == PayWingsOnboardingKYC.Interceptor {
+  public static func interceptor(adapter: @escaping PayWingsOnboardingKYC.AdaptHandler, retrier: @escaping PayWingsOnboardingKYC.RetryHandler) -> PayWingsOnboardingKYC.Interceptor
+  public static func interceptor(adapter: PayWingsOnboardingKYC.RequestAdapter, retrier: PayWingsOnboardingKYC.RequestRetrier) -> PayWingsOnboardingKYC.Interceptor
+  public static func interceptor(adapters: [PayWingsOnboardingKYC.RequestAdapter] = [], retriers: [PayWingsOnboardingKYC.RequestRetrier] = [], interceptors: [PayWingsOnboardingKYC.RequestInterceptor] = []) -> PayWingsOnboardingKYC.Interceptor
 }
 extension Foundation.URLSessionConfiguration : PayWingsOnboardingKYC.AlamofireExtended {
   public typealias ExtendedType = Foundation.URLSessionConfiguration
 }
 extension PayWingsOnboardingKYC.AlamofireExtension where ExtendedType : Foundation.URLSessionConfiguration {
   public static var `default`: Foundation.URLSessionConfiguration {
+    get
+  }
+  public static var ephemeral: Foundation.URLSessionConfiguration {
     get
   }
 }
@@ -1167,6 +1305,12 @@ open class JSONParameterEncoder : PayWingsOnboardingKYC.ParameterEncoder {
   open func encode<Parameters>(_ parameters: Parameters?, into request: Foundation.URLRequest) throws -> Foundation.URLRequest where Parameters : Swift.Encodable
   @objc deinit
 }
+extension PayWingsOnboardingKYC.ParameterEncoder where Self == PayWingsOnboardingKYC.JSONParameterEncoder {
+  public static var json: PayWingsOnboardingKYC.JSONParameterEncoder {
+    get
+  }
+  public static func json(encoder: Foundation.JSONEncoder = JSONEncoder()) -> PayWingsOnboardingKYC.JSONParameterEncoder
+}
 open class URLEncodedFormParameterEncoder : PayWingsOnboardingKYC.ParameterEncoder {
   public enum Destination {
     case methodDependent
@@ -1186,6 +1330,12 @@ open class URLEncodedFormParameterEncoder : PayWingsOnboardingKYC.ParameterEncod
   public init(encoder: PayWingsOnboardingKYC.URLEncodedFormEncoder = URLEncodedFormEncoder(), destination: PayWingsOnboardingKYC.URLEncodedFormParameterEncoder.Destination = .methodDependent)
   open func encode<Parameters>(_ parameters: Parameters?, into request: Foundation.URLRequest) throws -> Foundation.URLRequest where Parameters : Swift.Encodable
   @objc deinit
+}
+extension PayWingsOnboardingKYC.ParameterEncoder where Self == PayWingsOnboardingKYC.URLEncodedFormParameterEncoder {
+  public static var urlEncodedForm: PayWingsOnboardingKYC.URLEncodedFormParameterEncoder {
+    get
+  }
+  public static func urlEncodedForm(encoder: PayWingsOnboardingKYC.URLEncodedFormEncoder = URLEncodedFormEncoder(), destination: PayWingsOnboardingKYC.URLEncodedFormParameterEncoder.Destination = .methodDependent) -> PayWingsOnboardingKYC.URLEncodedFormParameterEncoder
 }
 public typealias AFResult<Success> = Swift.Result<Success, PayWingsOnboardingKYC.AFError>
 final public class VerificationResult {
@@ -1340,7 +1490,13 @@ extension Foundation.URLRequest {
   @discardableResult
   public func cacheResponse(using handler: PayWingsOnboardingKYC.CachedResponseHandler) -> Self
   @discardableResult
+  public func cURLDescription(on queue: Dispatch.DispatchQueue, calling handler: @escaping (Swift.String) -> Swift.Void) -> Self
+  @discardableResult
   public func cURLDescription(calling handler: @escaping (Swift.String) -> Swift.Void) -> Self
+  @discardableResult
+  public func onURLRequestCreation(on queue: Dispatch.DispatchQueue = .main, perform handler: @escaping (Foundation.URLRequest) -> Swift.Void) -> Self
+  @discardableResult
+  public func onURLSessionTaskCreation(on queue: Dispatch.DispatchQueue = .main, perform handler: @escaping (Foundation.URLSessionTask) -> Swift.Void) -> Self
   @objc deinit
 }
 extension PayWingsOnboardingKYC.Request : Swift.Equatable {
@@ -1494,7 +1650,10 @@ extension PayWingsOnboardingKYC.DataRequest {
   @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
   public func publishString(queue: Dispatch.DispatchQueue = .main, preprocessor: PayWingsOnboardingKYC.DataPreprocessor = StringResponseSerializer.defaultDataPreprocessor, encoding: Swift.String.Encoding? = nil, emptyResponseCodes: Swift.Set<Swift.Int> = StringResponseSerializer.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = StringResponseSerializer.defaultEmptyRequestMethods) -> PayWingsOnboardingKYC.DataResponsePublisher<Swift.String>
   @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
-  public func publishDecodable<T>(type: T.Type = T.self, queue: Dispatch.DispatchQueue = .main, preprocessor: PayWingsOnboardingKYC.DataPreprocessor = DecodableResponseSerializer<T>.defaultDataPreprocessor, decoder: PayWingsOnboardingKYC.DataDecoder = JSONDecoder(), emptyResponseCodes: Swift.Set<Swift.Int> = DecodableResponseSerializer<T>.defaultEmptyResponseCodes, emptyResponseMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = DecodableResponseSerializer<T>.defaultEmptyRequestMethods) -> PayWingsOnboardingKYC.DataResponsePublisher<T> where T : Swift.Decodable
+  @available(*, deprecated, message: "Renamed publishDecodable(type:queue:preprocessor:decoder:emptyResponseCodes:emptyRequestMethods).")
+  @_disfavoredOverload public func publishDecodable<T>(type: T.Type = T.self, queue: Dispatch.DispatchQueue = .main, preprocessor: PayWingsOnboardingKYC.DataPreprocessor = DecodableResponseSerializer<T>.defaultDataPreprocessor, decoder: PayWingsOnboardingKYC.DataDecoder = JSONDecoder(), emptyResponseCodes: Swift.Set<Swift.Int> = DecodableResponseSerializer<T>.defaultEmptyResponseCodes, emptyResponseMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = DecodableResponseSerializer<T>.defaultEmptyRequestMethods) -> PayWingsOnboardingKYC.DataResponsePublisher<T> where T : Swift.Decodable
+  @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
+  public func publishDecodable<T>(type: T.Type = T.self, queue: Dispatch.DispatchQueue = .main, preprocessor: PayWingsOnboardingKYC.DataPreprocessor = DecodableResponseSerializer<T>.defaultDataPreprocessor, decoder: PayWingsOnboardingKYC.DataDecoder = JSONDecoder(), emptyResponseCodes: Swift.Set<Swift.Int> = DecodableResponseSerializer<T>.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = DecodableResponseSerializer<T>.defaultEmptyRequestMethods) -> PayWingsOnboardingKYC.DataResponsePublisher<T> where T : Swift.Decodable
   @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
   public func publishUnserialized(queue: Dispatch.DispatchQueue = .main) -> PayWingsOnboardingKYC.DataResponsePublisher<Foundation.Data?>
 }
@@ -1534,11 +1693,16 @@ extension PayWingsOnboardingKYC.DownloadRequest {
   @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
   public func publishResponse<Serializer, T>(using serializer: Serializer, on queue: Dispatch.DispatchQueue = .main) -> PayWingsOnboardingKYC.DownloadResponsePublisher<T> where Serializer : PayWingsOnboardingKYC.DownloadResponseSerializerProtocol, T == Serializer.SerializedObject
   @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
+  public func publishURL(queue: Dispatch.DispatchQueue = .main) -> PayWingsOnboardingKYC.DownloadResponsePublisher<Foundation.URL>
+  @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
   public func publishData(queue: Dispatch.DispatchQueue = .main, preprocessor: PayWingsOnboardingKYC.DataPreprocessor = DataResponseSerializer.defaultDataPreprocessor, emptyResponseCodes: Swift.Set<Swift.Int> = DataResponseSerializer.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = DataResponseSerializer.defaultEmptyRequestMethods) -> PayWingsOnboardingKYC.DownloadResponsePublisher<Foundation.Data>
   @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
   public func publishString(queue: Dispatch.DispatchQueue = .main, preprocessor: PayWingsOnboardingKYC.DataPreprocessor = StringResponseSerializer.defaultDataPreprocessor, encoding: Swift.String.Encoding? = nil, emptyResponseCodes: Swift.Set<Swift.Int> = StringResponseSerializer.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = StringResponseSerializer.defaultEmptyRequestMethods) -> PayWingsOnboardingKYC.DownloadResponsePublisher<Swift.String>
   @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
-  public func publishDecodable<T>(type: T.Type = T.self, queue: Dispatch.DispatchQueue = .main, preprocessor: PayWingsOnboardingKYC.DataPreprocessor = DecodableResponseSerializer<T>.defaultDataPreprocessor, decoder: PayWingsOnboardingKYC.DataDecoder = JSONDecoder(), emptyResponseCodes: Swift.Set<Swift.Int> = DecodableResponseSerializer<T>.defaultEmptyResponseCodes, emptyResponseMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = DecodableResponseSerializer<T>.defaultEmptyRequestMethods) -> PayWingsOnboardingKYC.DownloadResponsePublisher<T> where T : Swift.Decodable
+  @available(*, deprecated, message: "Renamed publishDecodable(type:queue:preprocessor:decoder:emptyResponseCodes:emptyRequestMethods).")
+  @_disfavoredOverload public func publishDecodable<T>(type: T.Type = T.self, queue: Dispatch.DispatchQueue = .main, preprocessor: PayWingsOnboardingKYC.DataPreprocessor = DecodableResponseSerializer<T>.defaultDataPreprocessor, decoder: PayWingsOnboardingKYC.DataDecoder = JSONDecoder(), emptyResponseCodes: Swift.Set<Swift.Int> = DecodableResponseSerializer<T>.defaultEmptyResponseCodes, emptyResponseMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = DecodableResponseSerializer<T>.defaultEmptyRequestMethods) -> PayWingsOnboardingKYC.DownloadResponsePublisher<T> where T : Swift.Decodable
+  @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
+  public func publishDecodable<T>(type: T.Type = T.self, queue: Dispatch.DispatchQueue = .main, preprocessor: PayWingsOnboardingKYC.DataPreprocessor = DecodableResponseSerializer<T>.defaultDataPreprocessor, decoder: PayWingsOnboardingKYC.DataDecoder = JSONDecoder(), emptyResponseCodes: Swift.Set<Swift.Int> = DecodableResponseSerializer<T>.defaultEmptyResponseCodes, emptyRequestMethods: Swift.Set<PayWingsOnboardingKYC.HTTPMethod> = DecodableResponseSerializer<T>.defaultEmptyRequestMethods) -> PayWingsOnboardingKYC.DownloadResponsePublisher<T> where T : Swift.Decodable
 }
 @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
 extension PayWingsOnboardingKYC.DownloadResponsePublisher where Value == Foundation.URL? {
@@ -2303,6 +2467,10 @@ public enum AFError : Swift.Error {
     case outputStreamWriteFailed(error: Swift.Error)
     case inputStreamReadFailed(error: Swift.Error)
   }
+  public struct UnexpectedInputStreamLength : Swift.Error {
+    public var bytesExpected: Swift.UInt64
+    public var bytesRead: Swift.UInt64
+  }
   public enum ParameterEncodingFailureReason {
     case missingURL
     case jsonEncodingFailed(error: Swift.Error)
@@ -2458,6 +2626,9 @@ extension PayWingsOnboardingKYC.AFError {
     get
   }
   public var destinationURL: Foundation.URL? {
+    get
+  }
+  public var downloadResumeData: Foundation.Data? {
     get
   }
 }
@@ -2706,6 +2877,7 @@ open class Session {
   public init(session: Foundation.URLSession, delegate: PayWingsOnboardingKYC.SessionDelegate, rootQueue: Dispatch.DispatchQueue, startRequestsImmediately: Swift.Bool = true, requestQueue: Dispatch.DispatchQueue? = nil, serializationQueue: Dispatch.DispatchQueue? = nil, interceptor: PayWingsOnboardingKYC.RequestInterceptor? = nil, serverTrustManager: PayWingsOnboardingKYC.ServerTrustManager? = nil, redirectHandler: PayWingsOnboardingKYC.RedirectHandler? = nil, cachedResponseHandler: PayWingsOnboardingKYC.CachedResponseHandler? = nil, eventMonitors: [PayWingsOnboardingKYC.EventMonitor] = [])
   convenience public init(configuration: Foundation.URLSessionConfiguration = URLSessionConfiguration.af.default, delegate: PayWingsOnboardingKYC.SessionDelegate = SessionDelegate(), rootQueue: Dispatch.DispatchQueue = DispatchQueue(label: "org.alamofire.session.rootQueue"), startRequestsImmediately: Swift.Bool = true, requestQueue: Dispatch.DispatchQueue? = nil, serializationQueue: Dispatch.DispatchQueue? = nil, interceptor: PayWingsOnboardingKYC.RequestInterceptor? = nil, serverTrustManager: PayWingsOnboardingKYC.ServerTrustManager? = nil, redirectHandler: PayWingsOnboardingKYC.RedirectHandler? = nil, cachedResponseHandler: PayWingsOnboardingKYC.CachedResponseHandler? = nil, eventMonitors: [PayWingsOnboardingKYC.EventMonitor] = [])
   @objc deinit
+  public func withAllRequests(perform action: @escaping (Swift.Set<PayWingsOnboardingKYC.Request>) -> Swift.Void)
   public func cancelAllRequests(completingOnQueue queue: Dispatch.DispatchQueue = .main, completion: (() -> Swift.Void)? = nil)
   public typealias RequestModifier = (inout Foundation.URLRequest) throws -> Swift.Void
   open func request(_ convertible: PayWingsOnboardingKYC.URLConvertible, method: PayWingsOnboardingKYC.HTTPMethod = .get, parameters: PayWingsOnboardingKYC.Parameters? = nil, encoding: PayWingsOnboardingKYC.ParameterEncoding = URLEncoding.default, headers: PayWingsOnboardingKYC.HTTPHeaders? = nil, interceptor: PayWingsOnboardingKYC.RequestInterceptor? = nil, requestModifier: PayWingsOnboardingKYC.Session.RequestModifier? = nil) -> PayWingsOnboardingKYC.DataRequest
