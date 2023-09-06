@@ -96367,70 +96367,70 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/Helpers.swift",
       "kind": "BooleanLiteral",
-      "offset": 13148,
+      "offset": 12944,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/Helpers.swift",
       "kind": "FloatLiteral",
-      "offset": 13547,
+      "offset": 13343,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/Helpers.swift",
       "kind": "IntegerLiteral",
-      "offset": 17017,
+      "offset": 16813,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/Helpers.swift",
       "kind": "IntegerLiteral",
-      "offset": 17022,
+      "offset": 16818,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/Helpers.swift",
       "kind": "IntegerLiteral",
-      "offset": 17027,
+      "offset": 16823,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/Helpers.swift",
       "kind": "StringLiteral",
-      "offset": 17039,
+      "offset": 16835,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/Helpers.swift",
       "kind": "IntegerLiteral",
-      "offset": 17056,
+      "offset": 16852,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/Helpers.swift",
       "kind": "Array",
-      "offset": 17376,
+      "offset": 17172,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/Helpers.swift",
       "kind": "StringLiteral",
-      "offset": 17550,
+      "offset": 17346,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/Helpers.swift",
       "kind": "IntegerLiteral",
-      "offset": 17591,
+      "offset": 17387,
       "length": 1,
       "value": "1"
     },
@@ -96591,504 +96591,518 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1091,
+      "offset": 1068,
+      "length": 6,
+      "value": "10027"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1101,
+      "length": 6,
+      "value": "10029"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1161,
       "length": 6,
       "value": "20000"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1127,
+      "offset": 1197,
       "length": 6,
       "value": "30000"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1190,
+      "offset": 1260,
       "length": 6,
       "value": "40000"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1232,
+      "offset": 1302,
       "length": 6,
       "value": "40101"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1273,
+      "offset": 1343,
       "length": 6,
       "value": "40102"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1313,
+      "offset": 1383,
       "length": 6,
       "value": "40103"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1354,
+      "offset": 1424,
       "length": 6,
       "value": "40104"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1395,
+      "offset": 1465,
       "length": 6,
       "value": "40105"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1430,
+      "offset": 1500,
       "length": 6,
       "value": "40106"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1465,
+      "offset": 1535,
       "length": 6,
       "value": "40107"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1505,
+      "offset": 1575,
       "length": 6,
       "value": "40108"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1557,
+      "offset": 1627,
       "length": 6,
       "value": "40109"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1598,
+      "offset": 1668,
       "length": 6,
       "value": "40201"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1642,
+      "offset": 1712,
       "length": 6,
       "value": "40202"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1681,
+      "offset": 1751,
       "length": 6,
       "value": "40203"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1722,
+      "offset": 1792,
       "length": 6,
       "value": "40204"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1771,
+      "offset": 1841,
       "length": 6,
       "value": "40205"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1805,
+      "offset": 1875,
       "length": 6,
       "value": "40206"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1847,
+      "offset": 1917,
       "length": 6,
       "value": "40301"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1892,
+      "offset": 1962,
       "length": 6,
       "value": "40302"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1931,
+      "offset": 2001,
       "length": 6,
       "value": "40401"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1967,
+      "offset": 2037,
       "length": 6,
       "value": "40402"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2007,
+      "offset": 2077,
       "length": 6,
       "value": "40403"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2044,
+      "offset": 2114,
       "length": 6,
       "value": "40404"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2084,
+      "offset": 2154,
       "length": 6,
       "value": "40405"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2131,
+      "offset": 2201,
       "length": 6,
       "value": "40406"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2164,
+      "offset": 2234,
       "length": 6,
       "value": "40407"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2201,
+      "offset": 2271,
       "length": 6,
       "value": "40408"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2237,
+      "offset": 2307,
       "length": 6,
       "value": "40409"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2275,
+      "offset": 2345,
       "length": 6,
       "value": "40410"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2314,
+      "offset": 2384,
       "length": 6,
       "value": "40411"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2352,
+      "offset": 2422,
       "length": 6,
       "value": "40412"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2391,
+      "offset": 2461,
       "length": 6,
       "value": "40413"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2433,
+      "offset": 2503,
       "length": 6,
       "value": "40414"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2474,
+      "offset": 2544,
       "length": 6,
       "value": "40415"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2516,
+      "offset": 2586,
       "length": 6,
       "value": "40416"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2565,
+      "offset": 2635,
       "length": 6,
       "value": "40417"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2607,
+      "offset": 2677,
       "length": 6,
       "value": "40501"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2642,
+      "offset": 2712,
       "length": 6,
       "value": "40502"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2687,
+      "offset": 2757,
       "length": 6,
       "value": "40601"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2726,
+      "offset": 2796,
       "length": 6,
       "value": "40602"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2762,
+      "offset": 2832,
       "length": 6,
       "value": "40603"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2795,
+      "offset": 2865,
       "length": 6,
       "value": "40604"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2833,
+      "offset": 2903,
       "length": 6,
       "value": "40605"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2876,
+      "offset": 2946,
       "length": 6,
       "value": "40606"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2917,
+      "offset": 2987,
       "length": 6,
       "value": "40607"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2957,
+      "offset": 3027,
       "length": 6,
       "value": "40608"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2995,
+      "offset": 3065,
       "length": 6,
       "value": "40609"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3043,
+      "offset": 3113,
       "length": 6,
       "value": "40610"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3082,
+      "offset": 3152,
       "length": 6,
       "value": "40611"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3115,
+      "offset": 3185,
       "length": 6,
       "value": "40612"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3150,
+      "offset": 3220,
       "length": 6,
       "value": "40613"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3184,
+      "offset": 3254,
       "length": 6,
       "value": "40614"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3228,
+      "offset": 3298,
       "length": 6,
       "value": "40701"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3261,
+      "offset": 3331,
       "length": 6,
       "value": "40702"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3299,
+      "offset": 3369,
       "length": 6,
       "value": "40703"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3340,
+      "offset": 3410,
       "length": 6,
       "value": "40704"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3383,
+      "offset": 3453,
       "length": 6,
       "value": "40705"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3431,
+      "offset": 3501,
       "length": 6,
       "value": "40706"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3471,
+      "offset": 3541,
       "length": 6,
       "value": "40707"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3508,
+      "offset": 3578,
       "length": 6,
       "value": "40708"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3541,
+      "offset": 3611,
       "length": 6,
       "value": "40709"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3579,
+      "offset": 3649,
       "length": 6,
       "value": "40710"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3615,
+      "offset": 3685,
       "length": 6,
       "value": "40711"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3646,
+      "offset": 3716,
       "length": 6,
       "value": "40712"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3685,
+      "offset": 3755,
       "length": 6,
       "value": "40713"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3721,
+      "offset": 3791,
       "length": 6,
       "value": "40801"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3756,
+      "offset": 3826,
       "length": 6,
       "value": "40802"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3795,
+      "offset": 3865,
       "length": 6,
       "value": "40901"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3831,
+      "offset": 3901,
       "length": 6,
       "value": "41001"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3862,
+      "offset": 3932,
       "length": 6,
       "value": "41002"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3893,
+      "offset": 3963,
       "length": 6,
       "value": "41003"
     },
@@ -97249,504 +97263,518 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1091,
+      "offset": 1068,
+      "length": 1,
+      "value": "10027"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1101,
+      "length": 1,
+      "value": "10029"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1161,
       "length": 1,
       "value": "20000"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1127,
+      "offset": 1197,
       "length": 1,
       "value": "30000"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1190,
+      "offset": 1260,
       "length": 1,
       "value": "40000"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1232,
+      "offset": 1302,
       "length": 1,
       "value": "40101"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1273,
+      "offset": 1343,
       "length": 1,
       "value": "40102"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1313,
+      "offset": 1383,
       "length": 1,
       "value": "40103"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1354,
+      "offset": 1424,
       "length": 1,
       "value": "40104"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1395,
+      "offset": 1465,
       "length": 1,
       "value": "40105"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1430,
+      "offset": 1500,
       "length": 1,
       "value": "40106"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1465,
+      "offset": 1535,
       "length": 1,
       "value": "40107"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1505,
+      "offset": 1575,
       "length": 1,
       "value": "40108"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1557,
+      "offset": 1627,
       "length": 1,
       "value": "40109"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1598,
+      "offset": 1668,
       "length": 1,
       "value": "40201"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1642,
+      "offset": 1712,
       "length": 1,
       "value": "40202"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1681,
+      "offset": 1751,
       "length": 1,
       "value": "40203"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1722,
+      "offset": 1792,
       "length": 1,
       "value": "40204"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1771,
+      "offset": 1841,
       "length": 1,
       "value": "40205"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1805,
+      "offset": 1875,
       "length": 1,
       "value": "40206"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1847,
+      "offset": 1917,
       "length": 1,
       "value": "40301"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1892,
+      "offset": 1962,
       "length": 1,
       "value": "40302"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1931,
+      "offset": 2001,
       "length": 1,
       "value": "40401"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1967,
+      "offset": 2037,
       "length": 1,
       "value": "40402"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2007,
+      "offset": 2077,
       "length": 1,
       "value": "40403"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2044,
+      "offset": 2114,
       "length": 1,
       "value": "40404"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2084,
+      "offset": 2154,
       "length": 1,
       "value": "40405"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2131,
+      "offset": 2201,
       "length": 1,
       "value": "40406"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2164,
+      "offset": 2234,
       "length": 1,
       "value": "40407"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2201,
+      "offset": 2271,
       "length": 1,
       "value": "40408"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2237,
+      "offset": 2307,
       "length": 1,
       "value": "40409"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2275,
+      "offset": 2345,
       "length": 1,
       "value": "40410"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2314,
+      "offset": 2384,
       "length": 1,
       "value": "40411"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2352,
+      "offset": 2422,
       "length": 1,
       "value": "40412"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2391,
+      "offset": 2461,
       "length": 1,
       "value": "40413"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2433,
+      "offset": 2503,
       "length": 1,
       "value": "40414"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2474,
+      "offset": 2544,
       "length": 1,
       "value": "40415"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2516,
+      "offset": 2586,
       "length": 1,
       "value": "40416"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2565,
+      "offset": 2635,
       "length": 1,
       "value": "40417"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2607,
+      "offset": 2677,
       "length": 1,
       "value": "40501"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2642,
+      "offset": 2712,
       "length": 1,
       "value": "40502"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2687,
+      "offset": 2757,
       "length": 1,
       "value": "40601"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2726,
+      "offset": 2796,
       "length": 1,
       "value": "40602"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2762,
+      "offset": 2832,
       "length": 1,
       "value": "40603"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2795,
+      "offset": 2865,
       "length": 1,
       "value": "40604"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2833,
+      "offset": 2903,
       "length": 1,
       "value": "40605"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2876,
+      "offset": 2946,
       "length": 1,
       "value": "40606"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2917,
+      "offset": 2987,
       "length": 1,
       "value": "40607"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2957,
+      "offset": 3027,
       "length": 1,
       "value": "40608"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2995,
+      "offset": 3065,
       "length": 1,
       "value": "40609"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3043,
+      "offset": 3113,
       "length": 1,
       "value": "40610"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3082,
+      "offset": 3152,
       "length": 1,
       "value": "40611"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3115,
+      "offset": 3185,
       "length": 1,
       "value": "40612"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3150,
+      "offset": 3220,
       "length": 1,
       "value": "40613"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3184,
+      "offset": 3254,
       "length": 1,
       "value": "40614"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3228,
+      "offset": 3298,
       "length": 1,
       "value": "40701"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3261,
+      "offset": 3331,
       "length": 1,
       "value": "40702"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3299,
+      "offset": 3369,
       "length": 1,
       "value": "40703"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3340,
+      "offset": 3410,
       "length": 1,
       "value": "40704"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3383,
+      "offset": 3453,
       "length": 1,
       "value": "40705"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3431,
+      "offset": 3501,
       "length": 1,
       "value": "40706"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3471,
+      "offset": 3541,
       "length": 1,
       "value": "40707"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3508,
+      "offset": 3578,
       "length": 1,
       "value": "40708"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3541,
+      "offset": 3611,
       "length": 1,
       "value": "40709"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3579,
+      "offset": 3649,
       "length": 1,
       "value": "40710"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3615,
+      "offset": 3685,
       "length": 1,
       "value": "40711"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3646,
+      "offset": 3716,
       "length": 1,
       "value": "40712"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3685,
+      "offset": 3755,
       "length": 1,
       "value": "40713"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3721,
+      "offset": 3791,
       "length": 1,
       "value": "40801"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3756,
+      "offset": 3826,
       "length": 1,
       "value": "40802"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3795,
+      "offset": 3865,
       "length": 1,
       "value": "40901"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3831,
+      "offset": 3901,
       "length": 1,
       "value": "41001"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3862,
+      "offset": 3932,
       "length": 1,
       "value": "41002"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3893,
+      "offset": 3963,
       "length": 1,
       "value": "41003"
     },
@@ -97907,504 +97935,518 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1091,
+      "offset": 1068,
+      "length": 1,
+      "value": "10027"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1101,
+      "length": 1,
+      "value": "10029"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1161,
       "length": 1,
       "value": "20000"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1127,
+      "offset": 1197,
       "length": 1,
       "value": "30000"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1190,
+      "offset": 1260,
       "length": 1,
       "value": "40000"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1232,
+      "offset": 1302,
       "length": 1,
       "value": "40101"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1273,
+      "offset": 1343,
       "length": 1,
       "value": "40102"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1313,
+      "offset": 1383,
       "length": 1,
       "value": "40103"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1354,
+      "offset": 1424,
       "length": 1,
       "value": "40104"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1395,
+      "offset": 1465,
       "length": 1,
       "value": "40105"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1430,
+      "offset": 1500,
       "length": 1,
       "value": "40106"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1465,
+      "offset": 1535,
       "length": 1,
       "value": "40107"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1505,
+      "offset": 1575,
       "length": 1,
       "value": "40108"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1557,
+      "offset": 1627,
       "length": 1,
       "value": "40109"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1598,
+      "offset": 1668,
       "length": 1,
       "value": "40201"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1642,
+      "offset": 1712,
       "length": 1,
       "value": "40202"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1681,
+      "offset": 1751,
       "length": 1,
       "value": "40203"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1722,
+      "offset": 1792,
       "length": 1,
       "value": "40204"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1771,
+      "offset": 1841,
       "length": 1,
       "value": "40205"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1805,
+      "offset": 1875,
       "length": 1,
       "value": "40206"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1847,
+      "offset": 1917,
       "length": 1,
       "value": "40301"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1892,
+      "offset": 1962,
       "length": 1,
       "value": "40302"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1931,
+      "offset": 2001,
       "length": 1,
       "value": "40401"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 1967,
+      "offset": 2037,
       "length": 1,
       "value": "40402"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2007,
+      "offset": 2077,
       "length": 1,
       "value": "40403"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2044,
+      "offset": 2114,
       "length": 1,
       "value": "40404"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2084,
+      "offset": 2154,
       "length": 1,
       "value": "40405"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2131,
+      "offset": 2201,
       "length": 1,
       "value": "40406"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2164,
+      "offset": 2234,
       "length": 1,
       "value": "40407"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2201,
+      "offset": 2271,
       "length": 1,
       "value": "40408"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2237,
+      "offset": 2307,
       "length": 1,
       "value": "40409"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2275,
+      "offset": 2345,
       "length": 1,
       "value": "40410"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2314,
+      "offset": 2384,
       "length": 1,
       "value": "40411"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2352,
+      "offset": 2422,
       "length": 1,
       "value": "40412"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2391,
+      "offset": 2461,
       "length": 1,
       "value": "40413"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2433,
+      "offset": 2503,
       "length": 1,
       "value": "40414"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2474,
+      "offset": 2544,
       "length": 1,
       "value": "40415"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2516,
+      "offset": 2586,
       "length": 1,
       "value": "40416"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2565,
+      "offset": 2635,
       "length": 1,
       "value": "40417"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2607,
+      "offset": 2677,
       "length": 1,
       "value": "40501"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2642,
+      "offset": 2712,
       "length": 1,
       "value": "40502"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2687,
+      "offset": 2757,
       "length": 1,
       "value": "40601"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2726,
+      "offset": 2796,
       "length": 1,
       "value": "40602"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2762,
+      "offset": 2832,
       "length": 1,
       "value": "40603"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2795,
+      "offset": 2865,
       "length": 1,
       "value": "40604"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2833,
+      "offset": 2903,
       "length": 1,
       "value": "40605"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2876,
+      "offset": 2946,
       "length": 1,
       "value": "40606"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2917,
+      "offset": 2987,
       "length": 1,
       "value": "40607"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2957,
+      "offset": 3027,
       "length": 1,
       "value": "40608"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 2995,
+      "offset": 3065,
       "length": 1,
       "value": "40609"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3043,
+      "offset": 3113,
       "length": 1,
       "value": "40610"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3082,
+      "offset": 3152,
       "length": 1,
       "value": "40611"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3115,
+      "offset": 3185,
       "length": 1,
       "value": "40612"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3150,
+      "offset": 3220,
       "length": 1,
       "value": "40613"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3184,
+      "offset": 3254,
       "length": 1,
       "value": "40614"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3228,
+      "offset": 3298,
       "length": 1,
       "value": "40701"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3261,
+      "offset": 3331,
       "length": 1,
       "value": "40702"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3299,
+      "offset": 3369,
       "length": 1,
       "value": "40703"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3340,
+      "offset": 3410,
       "length": 1,
       "value": "40704"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3383,
+      "offset": 3453,
       "length": 1,
       "value": "40705"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3431,
+      "offset": 3501,
       "length": 1,
       "value": "40706"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3471,
+      "offset": 3541,
       "length": 1,
       "value": "40707"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3508,
+      "offset": 3578,
       "length": 1,
       "value": "40708"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3541,
+      "offset": 3611,
       "length": 1,
       "value": "40709"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3579,
+      "offset": 3649,
       "length": 1,
       "value": "40710"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3615,
+      "offset": 3685,
       "length": 1,
       "value": "40711"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3646,
+      "offset": 3716,
       "length": 1,
       "value": "40712"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3685,
+      "offset": 3755,
       "length": 1,
       "value": "40713"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3721,
+      "offset": 3791,
       "length": 1,
       "value": "40801"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3756,
+      "offset": 3826,
       "length": 1,
       "value": "40802"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3795,
+      "offset": 3865,
       "length": 1,
       "value": "40901"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3831,
+      "offset": 3901,
       "length": 1,
       "value": "41001"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3862,
+      "offset": 3932,
       "length": 1,
       "value": "41002"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 3893,
+      "offset": 3963,
       "length": 1,
       "value": "41003"
     },
@@ -99251,252 +99293,28 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 331,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1652,
-      "length": 32,
-      "value": "\": SumSub initialization failed\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1904,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1960,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2335,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2600,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2731,
-      "length": 99,
-      "value": "\"onStatusDidChange: [\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2787,
-      "length": 1,
-      "value": "\"] -> [\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2828,
-      "length": 1,
-      "value": "\"]\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2987,
-      "length": 88,
-      "value": "\"onDidDismiss: sdk has been dismissed with status [\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3073,
-      "length": 1,
-      "value": "\"]\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3356,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3489,
-      "length": 25,
-      "value": "\"Verification is pending\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3610,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3976,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4162,
-      "length": 66,
-      "value": "\"[\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4203,
-      "length": 1,
-      "value": "\"] - \""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4227,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4251,
-      "length": 13,
-      "value": "\"failReason:\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4371,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4465,
-      "length": 18,
-      "value": "\": Video failed: \""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4589,
-      "length": 38,
-      "value": "\"No verification steps are passed yet\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4721,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4900,
-      "length": 66,
-      "value": "\"Some but not all of the verification steps have been passed over\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5067,
+      "offset": 328,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5122,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5321,
-      "length": 41,
-      "value": "\"Applicant has been temporarily declined\""
+      "offset": 361,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5410,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5539,
-      "length": 37,
-      "value": "\"Applicant has been finally rejected\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5624,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5746,
-      "length": 29,
-      "value": "\"Applicant has been approved\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5823,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5952,
-      "length": 37,
-      "value": "\"Applicant action has been completed\""
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6130,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6740,
+      "offset": 6423,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/VideoViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7330,
+      "offset": 7013,
       "length": 2,
       "value": "\"\""
     },
@@ -99881,28 +99699,28 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 21458,
+      "offset": 21859,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 21503,
+      "offset": 21904,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 26813,
+      "offset": 27149,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/Onboarding.KYC\/PayWingsOnboardingKYC\/PayWingsOnboardingKYC\/KycApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 27394,
+      "offset": 27730,
       "length": 1,
       "value": "3"
     },
